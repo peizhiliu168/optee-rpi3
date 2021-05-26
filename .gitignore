@@ -5,6 +5,7 @@ out-br/
 module_output/
 cscope.out
 .vscode/
+optee_examples/nn_part/
 
 # build/Makefile
 # build/*.swp
