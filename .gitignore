@@ -1,0 +1,240 @@
+.repo/
+toolchains/
+out/
+out-br/
+module_output/
+cscope.out
+.vscode/
+
+# build/Makefile
+# build/*.swp
+# build/serial0.log
+# build/serial1.log
+# build/.gdb_history
+# build/gdb
+# build/pi3.cfg
+
+# buildroot/output
+# buildroot/dl
+# buildroot/.auto.deps
+# buildroot/.config.cmd
+# buildroot/.config.old
+# buildroot/..config.tmp
+# buildroot/.config
+# buildroot/*.depend
+# buildroot/*.o
+# buildroot/*.patch
+# buildroot/*.diff
+# buildroot/*.orig
+# buildroot/*.rej
+# buildroot/*~
+# buildroot/*.pyc
+
+# #
+# # NOTE! Don't add files that are generated in specific
+# # subdirectories here. Add them in the ".gitignore" file
+# # in that subdirectory instead.
+# #
+# # NOTE! Please use 'git ls-files -i --exclude-standard'
+# # command after changing this file, to see if there are
+# # any tracked files which get ignored after the change.
+# #
+# # Normal rules (sorted alphabetically)
+# #
+# linux/.*
+# linux/*.a
+# linux/*.asn1.[ch]
+# linux/*.bin
+# linux/*.bz2
+# linux/*.c.[012]*.*
+# linux/*.dt.yaml
+# linux/*.dtb
+# linux/*.dtbo
+# linux/*.dtb.S
+# linux/*.dwo
+# linux/*.elf
+# linux/*.gcno
+# linux/*.gz
+# linux/*.i
+# linux/*.ko
+# linux/*.lex.c
+# linux/*.ll
+# linux/*.lst
+# linux/*.lz4
+# linux/*.lzma
+# linux/*.lzo
+# linux/*.mod
+# linux/*.mod.c
+# linux/*.ns_deps
+# linux/*.o
+# linux/*.o.*
+# linux/*.patch
+# linux/*.s
+# linux/*.so
+# linux/*.so.dbg
+# linux/*.su
+# linux/*.symtypes
+# linux/*.tab.[ch]
+# linux/*.tar
+# linux/*.xz
+# linux/Module.symvers
+# linux/modules.builtin
+# linux/modules.order
+
+# #
+# # Top-level generic files
+# #
+# linux/tags
+# linux/TAGS
+# linux/linux
+# linux/vmlinux
+# linux/vmlinux.32
+# linux/vmlinux-gdb.py
+# linux/vmlinuz
+# linux/System.map
+# linux/Module.markers
+# linux/modules.builtin.modinfo
+
+# #
+# # RPM spec file (make rpm-pkg)
+# #
+# linux/*.spec
+
+# #
+# # Debian directory (make deb-pkg)
+# #
+# linux/debian/
+
+# #
+# # Snap directory (make snap-pkg)
+# #
+# linux/snap/
+
+# #
+# # tar directory (make tar*-pkg)
+# #
+# linux/tar-install/
+
+# #
+# # We don't want to ignore the following even if they are dot-files
+# #
+# !linux/.clang-format
+# !linux/.cocciconfig
+# !linux/.get_maintainer.ignore
+# !linux/.gitattributes
+# !linux/.gitignore
+# !linux/.mailmap
+
+# #
+# # Generated include files
+# #
+# linux/include/config/
+# linux/include/generated/
+# linux/include/ksym/
+# linux/arch/*/include/generated/
+
+# # stgit generated dirs
+# linux/patches-*
+
+# # quilt's files
+# linux/patches
+# linux/series
+
+# # cscope files
+# linux/cscope.*
+# linux/ncscope.*
+
+# # gnu global files
+# linux/GPATH
+# linux/GRTAGS
+# linux/GSYMS
+# linux/GTAGS
+
+# # id-utils files
+# linux/ID
+
+# linux/*.orig
+# linux/*~
+# linux/\#*#
+
+# #
+# # Leavings from module signing
+# #
+# linux/extra_certificates
+# linux/signing_key.pem
+# linux/signing_key.priv
+# linux/signing_key.x509
+# linux/x509.genkey
+
+# # Kconfig presets
+# linux/all.config
+# linux/alldef.config
+# linux/allmod.config
+# linux/allno.config
+# linux/allrandom.config
+# linux/allyes.config
+
+# # Kdevelop4
+# linux/*.kdev4
+
+# # Clang's compilation database file
+# linux/compile_commands.json
+
+# optee_benchmark/benchmark
+# optee_benchmark/GPATH
+# optee_benchmark/GRTAGS
+# optee_benchmark/GSYMS
+# optee_benchmark/GTAGS
+# optee_benchmark/*.cmd
+# optee_benchmark/*.d
+# optee_benchmark/*.dmp
+# optee_benchmark/*.elf
+# optee_benchmark/*.lds
+# optee_benchmark/*.map
+# optee_benchmark/*.o
+# optee_benchmark/*.png
+# optee_benchmark/*.swp
+# optee_benchmark/*.ta
+# optee_benchmark/cscope.*
+# optee_benchmark/*/out/
+
+# optee_client/build
+# optee_client/CMakeCache.txt
+# optee_client/CMakeFiles
+# optee_client/cmake_install.cmake
+# optee_client/.cproject
+# optee_client/cscope.*
+# optee_client/Debug
+# optee_client/GPATH
+# optee_client/GRTAGS
+# optee_client/GTAGS
+# optee_client/libs
+# optee_client/obj
+# optee_client/out
+# optee_client/.project
+# optee_client/*.swp
+
+# optee_examples/GPATH
+# optee_examples/GRTAGS
+# optee_examples/GSYMS
+# optee_examples/GTAGS
+# optee_examples/*.cmd
+# optee_examples/*.d
+# optee_examples/*.dmp
+# optee_examples/*.elf
+# optee_examples/*.lds
+# optee_examples/*.map
+# optee_examples/*.o
+# optee_examples/*.swp
+# optee_examples/*.ta
+# optee_examples/cscope.*
+# optee_examples/out/
+# optee_examples/hello_world/host/optee_example_hello_world
+# optee_examples/random/host/optee_example_random
+# optee_examples/aes/host/optee_example_aes
+# optee_examples/hotp/host/optee_example_hotp
+# optee_examples/secure_storage/host/optee_example_secure_storage
+# optee_examples/plugins/host/optee_example_plugins
+
+
+
