@@ -1,0 +1,54 @@
+#include <linux/build-salt.h>
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(.gnu.linkonce.this_module) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section(__versions) = {
+	{ 0x54230ab0, "module_layout" },
+	{ 0x1fdc7df2, "_mcount" },
+	{ 0xd65bd301, "__nf_ct_refresh_acct" },
+	{ 0x20000329, "simple_strtoul" },
+	{ 0xa480866c, "nf_ct_expect_init" },
+	{ 0xc7989b23, "textsearch_prepare" },
+	{ 0xdf2abad, "nf_conntrack_helpers_register" },
+	{ 0x43316f96, "skb_find_text" },
+	{ 0x63c1180f, "param_ops_charp" },
+	{ 0xc5850110, "printk" },
+	{ 0xa7e86960, "nf_ct_expect_put" },
+	{ 0xa34d66f3, "nf_ct_expect_alloc" },
+	{ 0xdffb746b, "nf_ct_expect_related_report" },
+	{ 0xa19fd42c, "nf_conntrack_helpers_unregister" },
+	{ 0xdecd0b29, "__stack_chk_fail" },
+	{ 0xe52e06f0, "nf_ct_helper_log" },
+	{ 0x15cf2553, "textsearch_destroy" },
+	{ 0xf6ebc03b, "net_ratelimit" },
+	{ 0xa96f1213, "param_ops_uint" },
+	{ 0x481c66fc, "skb_copy_bits" },
+};
+
+MODULE_INFO(depends, "nf_conntrack");
+
+
+MODULE_INFO(srcversion, "A89D4B0A487F3A07F03BA33");

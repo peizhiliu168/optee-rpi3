@@ -1,0 +1,1 @@
+cmd_drivers/char/broadcom/built-in.a := rm -f drivers/char/broadcom/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST drivers/char/broadcom/built-in.a drivers/char/broadcom/vc_mem.o drivers/char/broadcom/vcio.o drivers/char/broadcom/bcm2835-gpiomem.o

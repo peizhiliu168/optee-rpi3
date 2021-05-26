@@ -1,0 +1,1 @@
+cmd_net/9p/9pnet.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf    -r -o net/9p/9pnet.o net/9p/mod.o net/9p/client.o net/9p/error.o net/9p/protocol.o net/9p/trans_fd.o net/9p/trans_common.o

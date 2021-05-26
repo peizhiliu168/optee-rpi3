@@ -1,0 +1,15 @@
+drivers/iio/adc/mcp320x.ko
+drivers/iio/adc/mcp3422.ko
+drivers/iio/buffer/industrialio-buffer-cb.ko
+drivers/iio/buffer/industrialio-triggered-buffer.ko
+drivers/iio/buffer/kfifo_buf.ko
+drivers/iio/chemical/bme680_core.ko
+drivers/iio/chemical/bme680_i2c.ko
+drivers/iio/chemical/bme680_spi.ko
+drivers/iio/chemical/sps30.ko
+drivers/iio/common/ms_sensors/ms_sensors_i2c.ko
+drivers/iio/humidity/dht11.ko
+drivers/iio/humidity/htu21.ko
+drivers/iio/light/apds9960.ko
+drivers/iio/temperature/maxim_thermocouple.ko
+drivers/iio/industrialio.ko

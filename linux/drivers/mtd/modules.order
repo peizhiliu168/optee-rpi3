@@ -1,0 +1,6 @@
+drivers/mtd/parsers/ofpart.ko
+drivers/mtd/chips/chipreg.ko
+drivers/mtd/mtd.ko
+drivers/mtd/mtd_blkdevs.ko
+drivers/mtd/mtdblock.ko
+drivers/mtd/ubi/ubi.ko

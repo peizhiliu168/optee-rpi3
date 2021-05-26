@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-i-sabre-codec.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf    -r -o sound/soc/codecs/snd-soc-i-sabre-codec.o sound/soc/codecs/i-sabre-codec.o

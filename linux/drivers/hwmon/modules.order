@@ -1,0 +1,5 @@
+drivers/hwmon/iio_hwmon.ko
+drivers/hwmon/ina2xx.ko
+drivers/hwmon/lm75.ko
+drivers/hwmon/sht21.ko
+drivers/hwmon/shtc1.ko

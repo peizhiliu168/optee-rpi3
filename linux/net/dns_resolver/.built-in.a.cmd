@@ -1,0 +1,1 @@
+cmd_net/dns_resolver/built-in.a := rm -f net/dns_resolver/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST net/dns_resolver/built-in.a net/dns_resolver/dns_key.o net/dns_resolver/dns_query.o

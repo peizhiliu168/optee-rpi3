@@ -1,0 +1,1 @@
+cmd_fs/iomap/built-in.a := rm -f fs/iomap/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST fs/iomap/built-in.a fs/iomap/apply.o fs/iomap/buffered-io.o fs/iomap/direct-io.o fs/iomap/fiemap.o fs/iomap/seek.o fs/iomap/swapfile.o

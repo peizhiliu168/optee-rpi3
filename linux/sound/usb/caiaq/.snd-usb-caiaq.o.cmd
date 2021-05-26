@@ -1,0 +1,1 @@
+cmd_sound/usb/caiaq/snd-usb-caiaq.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf    -r -o sound/usb/caiaq/snd-usb-caiaq.o sound/usb/caiaq/device.o sound/usb/caiaq/audio.o sound/usb/caiaq/midi.o sound/usb/caiaq/control.o sound/usb/caiaq/input.o

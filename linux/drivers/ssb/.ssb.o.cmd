@@ -1,0 +1,1 @@
+cmd_drivers/ssb/ssb.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf    -r -o drivers/ssb/ssb.o drivers/ssb/main.o drivers/ssb/scan.o drivers/ssb/driver_chipcommon.o drivers/ssb/driver_chipcommon_pmu.o

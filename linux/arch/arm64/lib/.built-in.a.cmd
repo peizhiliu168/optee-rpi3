@@ -1,0 +1,1 @@
+cmd_arch/arm64/lib/built-in.a := rm -f arch/arm64/lib/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST arch/arm64/lib/built-in.a arch/arm64/lib/crc32.o arch/arm64/lib/error-inject.o arch/arm64/lib/lib-ksyms.o

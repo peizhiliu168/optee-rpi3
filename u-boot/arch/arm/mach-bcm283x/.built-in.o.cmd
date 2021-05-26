@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-bcm283x/built-in.o :=  /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld.bfd     -r -o arch/arm/mach-bcm283x/built-in.o arch/arm/mach-bcm283x/init.o arch/arm/mach-bcm283x/reset.o arch/arm/mach-bcm283x/mbox.o arch/arm/mach-bcm283x/msg.o arch/arm/mach-bcm283x/phys2bus.o 

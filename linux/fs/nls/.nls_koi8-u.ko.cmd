@@ -1,0 +1,1 @@
+cmd_fs/nls/nls_koi8-u.ko := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o fs/nls/nls_koi8-u.ko fs/nls/nls_koi8-u.o fs/nls/nls_koi8-u.mod.o;  true

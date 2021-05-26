@@ -1,0 +1,1 @@
+cmd_net/wimax/wimax.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf    -r -o net/wimax/wimax.o net/wimax/id-table.o net/wimax/op-msg.o net/wimax/op-reset.o net/wimax/op-rfkill.o net/wimax/op-state-get.o net/wimax/stack.o net/wimax/debugfs.o

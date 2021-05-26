@@ -1,0 +1,1 @@
+cmd_drivers/net/can/built-in.a := rm -f drivers/net/can/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST drivers/net/can/built-in.a drivers/net/can/rcar/built-in.a drivers/net/can/spi/built-in.a drivers/net/can/usb/built-in.a drivers/net/can/softing/built-in.a

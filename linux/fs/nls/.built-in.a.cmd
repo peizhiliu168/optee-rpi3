@@ -1,0 +1,1 @@
+cmd_fs/nls/built-in.a := rm -f fs/nls/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST fs/nls/built-in.a fs/nls/nls_base.o fs/nls/nls_cp437.o fs/nls/nls_ascii.o

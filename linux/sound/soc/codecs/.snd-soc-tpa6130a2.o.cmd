@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-tpa6130a2.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf    -r -o sound/soc/codecs/snd-soc-tpa6130a2.o sound/soc/codecs/tpa6130a2.o

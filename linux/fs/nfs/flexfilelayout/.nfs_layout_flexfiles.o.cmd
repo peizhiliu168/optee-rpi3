@@ -1,0 +1,1 @@
+cmd_fs/nfs/flexfilelayout/nfs_layout_flexfiles.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf    -r -o fs/nfs/flexfilelayout/nfs_layout_flexfiles.o fs/nfs/flexfilelayout/flexfilelayout.o fs/nfs/flexfilelayout/flexfilelayoutdev.o

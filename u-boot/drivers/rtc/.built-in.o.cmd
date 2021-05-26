@@ -1,0 +1,1 @@
+cmd_drivers/rtc/built-in.o :=  /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld.bfd     -r -o drivers/rtc/built-in.o drivers/rtc/date.o drivers/rtc/rtc-lib.o 

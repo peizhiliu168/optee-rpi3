@@ -1,0 +1,8 @@
+drivers/char/ttyprintk.ko
+drivers/char/raw.ko
+drivers/char/broadcom/vcio.ko
+drivers/char/broadcom/bcm2835-gpiomem.ko
+drivers/char/hw_random/rng-core.ko
+drivers/char/hw_random/bcm2835-rng.ko
+drivers/char/hw_random/iproc-rng200.ko
+drivers/char/hw_random/optee-rng.ko

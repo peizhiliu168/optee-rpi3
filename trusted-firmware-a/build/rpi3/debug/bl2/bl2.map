@@ -1,0 +1,1816 @@
+Archive member included to satisfy reference by file (symbol)
+
+./build/rpi3/debug/lib/libc.a(assert.o)
+                              ./build/rpi3/debug/bl2/desc_image_load.o (__assert)
+./build/rpi3/debug/lib/libc.a(memcmp.o)
+                              ./build/rpi3/debug/bl2/io_fip.o (memcmp)
+./build/rpi3/debug/lib/libc.a(memcpy.o)
+                              ./build/rpi3/debug/bl2/desc_image_load.o (memcpy)
+./build/rpi3/debug/lib/libc.a(memmove.o)
+                              ./build/rpi3/debug/bl2/xlat_tables_core.o (memmove)
+./build/rpi3/debug/lib/libc.a(memset.o)
+                              ./build/rpi3/debug/bl2/rpi3_bl2_setup.o (memset)
+./build/rpi3/debug/lib/libc.a(printf.o)
+                              ./build/rpi3/debug/bl2/tf_log.o (vprintf)
+./build/rpi3/debug/lib/libc.a(putchar.o)
+                              ./build/rpi3/debug/bl2/tf_log.o (putchar)
+
+Allocating common symbols
+Common symbol       size              file
+
+mmu_cfg_params      0x18              ./build/rpi3/debug/bl2/xlat_tables_context.o
+console_list        0x8               ./build/rpi3/debug/bl2/multi_console.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/build_message.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/build_message.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/build_message.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/desc_image_load.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/desc_image_load.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/desc_image_load.o
+ .text.populate_next_bl_params_config
+                0x0000000000000000       0xcc ./build/rpi3/debug/bl2/desc_image_load.o
+ .text.bl31_params_parse_helper
+                0x0000000000000000       0xec ./build/rpi3/debug/bl2/desc_image_load.o
+ .eh_frame      0x0000000000000000      0x130 ./build/rpi3/debug/bl2/desc_image_load.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_fip.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_fip.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_fip.o
+ .eh_frame      0x0000000000000000      0x160 ./build/rpi3/debug/bl2/io_fip.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_memmap.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_memmap.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_memmap.o
+ .eh_frame      0x0000000000000000      0x158 ./build/rpi3/debug/bl2/io_memmap.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_storage.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_storage.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_storage.o
+ .text.io_write
+                0x0000000000000000       0x80 ./build/rpi3/debug/bl2/io_storage.o
+ .eh_frame      0x0000000000000000      0x240 ./build/rpi3/debug/bl2/io_storage.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/gpio.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/gpio.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/gpio.o
+ .text.gpio_get_direction
+                0x0000000000000000       0x4c ./build/rpi3/debug/bl2/gpio.o
+ .text.gpio_set_direction
+                0x0000000000000000       0x5c ./build/rpi3/debug/bl2/gpio.o
+ .text.gpio_get_value
+                0x0000000000000000       0x4c ./build/rpi3/debug/bl2/gpio.o
+ .text.gpio_set_value
+                0x0000000000000000       0x5c ./build/rpi3/debug/bl2/gpio.o
+ .text.gpio_get_pull
+                0x0000000000000000       0x4c ./build/rpi3/debug/bl2/gpio.o
+ .eh_frame      0x0000000000000000       0xf8 ./build/rpi3/debug/bl2/gpio.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/delay_timer.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/delay_timer.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/delay_timer.o
+ .eh_frame      0x0000000000000000       0x70 ./build/rpi3/debug/bl2/delay_timer.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/generic_delay_timer.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/generic_delay_timer.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/generic_delay_timer.o
+ .eh_frame      0x0000000000000000       0x60 ./build/rpi3/debug/bl2/generic_delay_timer.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .eh_frame      0x0000000000000000       0xe8 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_block.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_block.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_block.o
+ .text.device_type_block
+                0x0000000000000000        0x8 ./build/rpi3/debug/bl2/io_block.o
+ .text.block_close
+                0x0000000000000000        0xc ./build/rpi3/debug/bl2/io_block.o
+ .rodata.block_write.str1.1
+                0x0000000000000000       0x16 ./build/rpi3/debug/bl2/io_block.o
+ .text.block_write
+                0x0000000000000000      0x1b4 ./build/rpi3/debug/bl2/io_block.o
+ .text.block_read
+                0x0000000000000000      0x14c ./build/rpi3/debug/bl2/io_block.o
+ .text.block_dev_open
+                0x0000000000000000       0xb8 ./build/rpi3/debug/bl2/io_block.o
+ .text.block_seek
+                0x0000000000000000       0x80 ./build/rpi3/debug/bl2/io_block.o
+ .text.block_open
+                0x0000000000000000       0x74 ./build/rpi3/debug/bl2/io_block.o
+ .text.block_dev_close
+                0x0000000000000000       0x78 ./build/rpi3/debug/bl2/io_block.o
+ .text.register_io_dev_block
+                0x0000000000000000       0x4c ./build/rpi3/debug/bl2/io_block.o
+ .bss.block_dev_count
+                0x0000000000000000        0x4 ./build/rpi3/debug/bl2/io_block.o
+ .bss.dev_info_pool
+                0x0000000000000000       0x10 ./build/rpi3/debug/bl2/io_block.o
+ .bss.state_pool
+                0x0000000000000000       0x20 ./build/rpi3/debug/bl2/io_block.o
+ .rodata.block_dev_connector
+                0x0000000000000000        0x8 ./build/rpi3/debug/bl2/io_block.o
+ .rodata.block_dev_funcs
+                0x0000000000000000       0x48 ./build/rpi3/debug/bl2/io_block.o
+ .debug_info    0x0000000000000000     0x10a1 ./build/rpi3/debug/bl2/io_block.o
+ .debug_abbrev  0x0000000000000000      0x38b ./build/rpi3/debug/bl2/io_block.o
+ .debug_loc     0x0000000000000000     0x1940 ./build/rpi3/debug/bl2/io_block.o
+ .debug_aranges
+                0x0000000000000000       0xb0 ./build/rpi3/debug/bl2/io_block.o
+ .debug_ranges  0x0000000000000000      0x250 ./build/rpi3/debug/bl2/io_block.o
+ .debug_line    0x0000000000000000      0x6f8 ./build/rpi3/debug/bl2/io_block.o
+ .debug_str     0x0000000000000000      0x72e ./build/rpi3/debug/bl2/io_block.o
+ .comment       0x0000000000000000       0x5b ./build/rpi3/debug/bl2/io_block.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_block.o
+ .eh_frame      0x0000000000000000      0x170 ./build/rpi3/debug/bl2/io_block.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/mmc.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/mmc.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/mmc.o
+ .text.mmc_read_blocks
+                0x0000000000000000      0x14c ./build/rpi3/debug/bl2/mmc.o
+ .text.mmc_write_blocks
+                0x0000000000000000      0x134 ./build/rpi3/debug/bl2/mmc.o
+ .text.mmc_erase_blocks
+                0x0000000000000000       0xbc ./build/rpi3/debug/bl2/mmc.o
+ .text.mmc_rpmb_read_blocks
+                0x0000000000000000       0x5c ./build/rpi3/debug/bl2/mmc.o
+ .text.mmc_rpmb_write_blocks
+                0x0000000000000000       0x5c ./build/rpi3/debug/bl2/mmc.o
+ .text.mmc_rpmb_erase_blocks
+                0x0000000000000000       0x4c ./build/rpi3/debug/bl2/mmc.o
+ .eh_frame      0x0000000000000000      0x200 ./build/rpi3/debug/bl2/mmc.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .eh_frame      0x0000000000000000      0x208 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_bl2_mem_params_desc.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_bl2_mem_params_desc.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_bl2_mem_params_desc.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ .eh_frame      0x0000000000000000       0x98 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_image_load.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_image_load.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_image_load.o
+ .eh_frame      0x0000000000000000       0x50 ./build/rpi3/debug/bl2/rpi3_image_load.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .eh_frame      0x0000000000000000       0xb8 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/optee_utils.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/optee_utils.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/optee_utils.o
+ .eh_frame      0x0000000000000000       0x70 ./build/rpi3/debug/bl2/optee_utils.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+ .eh_frame      0x0000000000000000       0x48 ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_main.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_main.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_main.o
+ .eh_frame      0x0000000000000000       0x50 ./build/rpi3/debug/bl2/bl2_main.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_arch_setup.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_arch_setup.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_arch_setup.o
+ .eh_frame      0x0000000000000000       0x28 ./build/rpi3/debug/bl2/bl2_arch_setup.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl_common.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl_common.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl_common.o
+ .text.page_align
+                0x0000000000000000       0x1c ./build/rpi3/debug/bl2/bl_common.o
+ .rodata.print_entry_point_info.str1.1
+                0x0000000000000000       0x2c ./build/rpi3/debug/bl2/bl_common.o
+ .text.print_entry_point_info
+                0x0000000000000000       0x38 ./build/rpi3/debug/bl2/bl_common.o
+ .eh_frame      0x0000000000000000       0x80 ./build/rpi3/debug/bl2/bl_common.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/tf_log.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/tf_log.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/tf_log.o
+ .text.tf_log_set_max_level
+                0x0000000000000000       0x50 ./build/rpi3/debug/bl2/tf_log.o
+ .eh_frame      0x0000000000000000       0x60 ./build/rpi3/debug/bl2/tf_log.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/multi_console.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/multi_console.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/multi_console.o
+ .text.console_unregister
+                0x0000000000000000       0x54 ./build/rpi3/debug/bl2/multi_console.o
+ .text.console_switch_state
+                0x0000000000000000        0xc ./build/rpi3/debug/bl2/multi_console.o
+ .text.console_getc
+                0x0000000000000000       0x78 ./build/rpi3/debug/bl2/multi_console.o
+ .eh_frame      0x0000000000000000      0x138 ./build/rpi3/debug/bl2/multi_console.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_bl_common.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_bl_common.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_bl_common.o
+ .text.bl2_el3_plat_prepare_exit
+                0x0000000000000000        0x4 ./build/rpi3/debug/bl2/plat_bl_common.o
+ .text.bl2_plat_handle_post_image_load
+                0x0000000000000000        0x8 ./build/rpi3/debug/bl2/plat_bl_common.o
+ .text.setup_page_tables
+                0x0000000000000000       0x28 ./build/rpi3/debug/bl2/plat_bl_common.o
+ .eh_frame      0x0000000000000000       0xb0 ./build/rpi3/debug/bl2/plat_bl_common.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_log_common.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_log_common.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_log_common.o
+ .eh_frame      0x0000000000000000       0x28 ./build/rpi3/debug/bl2/plat_log_common.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_common.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_common.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_common.o
+ .text.bl31_plat_runtime_setup
+                0x0000000000000000        0x8 ./build/rpi3/debug/bl2/plat_common.o
+ .rodata.platform_core_pos_helper.str1.1
+                0x0000000000000000       0x22 ./build/rpi3/debug/bl2/plat_common.o
+ .text.platform_core_pos_helper
+                0x0000000000000000       0x28 ./build/rpi3/debug/bl2/plat_common.o
+ .rodata.plat_ea_handler.str1.1
+                0x0000000000000000       0x5c ./build/rpi3/debug/bl2/plat_common.o
+ .text.plat_ea_handler
+                0x0000000000000000       0x4c ./build/rpi3/debug/bl2/plat_common.o
+ .rodata.__func__.2709
+                0x0000000000000000       0x10 ./build/rpi3/debug/bl2/plat_common.o
+ .debug_info    0x0000000000000000      0x414 ./build/rpi3/debug/bl2/plat_common.o
+ .debug_abbrev  0x0000000000000000      0x18c ./build/rpi3/debug/bl2/plat_common.o
+ .debug_loc     0x0000000000000000      0x1c7 ./build/rpi3/debug/bl2/plat_common.o
+ .debug_aranges
+                0x0000000000000000       0x50 ./build/rpi3/debug/bl2/plat_common.o
+ .debug_ranges  0x0000000000000000       0x70 ./build/rpi3/debug/bl2/plat_common.o
+ .debug_line    0x0000000000000000      0x1a4 ./build/rpi3/debug/bl2/plat_common.o
+ .debug_str     0x0000000000000000      0x41a ./build/rpi3/debug/bl2/plat_common.o
+ .comment       0x0000000000000000       0x5b ./build/rpi3/debug/bl2/plat_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_common.o
+ .eh_frame      0x0000000000000000       0x68 ./build/rpi3/debug/bl2/plat_common.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/backtrace.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/backtrace.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/backtrace.o
+ .eh_frame      0x0000000000000000       0x88 ./build/rpi3/debug/bl2/backtrace.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_common.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_common.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_common.o
+ .rodata.plat_ic_get_pending_interrupt_type.str1.1
+                0x0000000000000000       0x21 ./build/rpi3/debug/bl2/rpi3_common.o
+ .text.plat_ic_get_pending_interrupt_type
+                0x0000000000000000       0x20 ./build/rpi3/debug/bl2/rpi3_common.o
+ .rodata.plat_interrupt_type_to_line.str1.1
+                0x0000000000000000       0x1e ./build/rpi3/debug/bl2/rpi3_common.o
+ .text.plat_interrupt_type_to_line
+                0x0000000000000000       0x44 ./build/rpi3/debug/bl2/rpi3_common.o
+ .eh_frame      0x0000000000000000       0xe8 ./build/rpi3/debug/bl2/rpi3_common.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .text.xlat_arch_is_granule_size_supported
+                0x0000000000000000       0x48 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .text.xlat_arch_get_max_supported_granule_size
+                0x0000000000000000       0x64 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .text.xlat_arch_tlbi_va_sync
+                0x0000000000000000        0xc ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .text.xlat_arch_tlbi_va
+                0x0000000000000000       0xa0 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .eh_frame      0x0000000000000000      0x178 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .text.mmap_add_region_alloc_va
+                0x0000000000000000       0x48 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .text.mmap_add_alloc_va
+                0x0000000000000000       0x58 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .text.xlat_get_mem_attributes
+                0x0000000000000000       0x14 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .text.xlat_change_mem_attributes
+                0x0000000000000000       0x18 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .text.enable_mmu_el2
+                0x0000000000000000       0x48 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .text.enable_mmu_el3
+                0x0000000000000000       0x48 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .eh_frame      0x0000000000000000      0x150 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .text.mmap_add_region_alloc_va_ctx
+                0x0000000000000000       0x98 ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .eh_frame      0x0000000000000000      0x158 ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .rodata.find_xlat_table_entry.str1.1
+                0x0000000000000000       0x53 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .text.find_xlat_table_entry
+                0x0000000000000000       0xe0 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .rodata.xlat_get_mem_attributes_internal.str1.1
+                0x0000000000000000       0x1f ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .text.xlat_get_mem_attributes_internal
+                0x0000000000000000      0x19c ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .text.xlat_get_mem_attributes_ctx
+                0x0000000000000000       0x10 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .rodata.xlat_change_mem_attributes_ctx.str1.1
+                0x0000000000000000      0x152 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .text.xlat_change_mem_attributes_ctx
+                0x0000000000000000      0x258 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .rodata.__func__.2435
+                0x0000000000000000       0x1f ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .eh_frame      0x0000000000000000       0xe0 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/platform_mp_stack.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/platform_mp_stack.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/platform_mp_stack.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_helpers.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_helpers.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_helpers.o
+ .text.asm.plat_is_my_cpu_primary
+                0x0000000000000000       0x14 ./build/rpi3/debug/bl2/plat_helpers.o
+ .text.asm.plat_secondary_cold_boot_setup
+                0x0000000000000000       0x38 ./build/rpi3/debug/bl2/plat_helpers.o
+ .text.asm.plat_get_my_entrypoint
+                0x0000000000000000        0x8 ./build/rpi3/debug/bl2/plat_helpers.o
+ .text.asm.platform_mem_init
+                0x0000000000000000        0x4 ./build/rpi3/debug/bl2/plat_helpers.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/spinlock.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/spinlock.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/spinlock.o
+ .text.asm.spin_lock
+                0x0000000000000000       0x20 ./build/rpi3/debug/bl2/spinlock.o
+ .text.asm.spin_unlock
+                0x0000000000000000        0x8 ./build/rpi3/debug/bl2/spinlock.o
+ .debug_line    0x0000000000000000       0x76 ./build/rpi3/debug/bl2/spinlock.o
+ .debug_info    0x0000000000000000       0x22 ./build/rpi3/debug/bl2/spinlock.o
+ .debug_abbrev  0x0000000000000000       0x12 ./build/rpi3/debug/bl2/spinlock.o
+ .debug_aranges
+                0x0000000000000000       0x40 ./build/rpi3/debug/bl2/spinlock.o
+ .debug_str     0x0000000000000000       0x94 ./build/rpi3/debug/bl2/spinlock.o
+ .debug_ranges  0x0000000000000000       0x40 ./build/rpi3/debug/bl2/spinlock.o
+ .debug_frame   0x0000000000000000       0x40 ./build/rpi3/debug/bl2/spinlock.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/platform_up_stack.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/platform_up_stack.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/platform_up_stack.o
+ .text.asm.plat_get_my_stack
+                0x0000000000000000        0xc ./build/rpi3/debug/bl2/platform_up_stack.o
+ .text.asm.plat_set_my_stack
+                0x0000000000000000       0x10 ./build/rpi3/debug/bl2/platform_up_stack.o
+ tzfw_normal_stacks
+                0x0000000000000000     0x1000 ./build/rpi3/debug/bl2/platform_up_stack.o
+ .debug_line    0x0000000000000000       0x71 ./build/rpi3/debug/bl2/platform_up_stack.o
+ .debug_info    0x0000000000000000       0x22 ./build/rpi3/debug/bl2/platform_up_stack.o
+ .debug_abbrev  0x0000000000000000       0x12 ./build/rpi3/debug/bl2/platform_up_stack.o
+ .debug_aranges
+                0x0000000000000000       0x40 ./build/rpi3/debug/bl2/platform_up_stack.o
+ .debug_str     0x0000000000000000       0x95 ./build/rpi3/debug/bl2/platform_up_stack.o
+ .debug_ranges  0x0000000000000000       0x40 ./build/rpi3/debug/bl2/platform_up_stack.o
+ .debug_frame   0x0000000000000000       0x40 ./build/rpi3/debug/bl2/platform_up_stack.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/early_exceptions.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/early_exceptions.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/early_exceptions.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_entrypoint.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_entrypoint.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_entrypoint.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/debug.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/debug.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/debug.o
+ .text.asm.asm_print_newline
+                0x0000000000000000        0x8 ./build/rpi3/debug/bl2/debug.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/cache_helpers.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/cache_helpers.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/cache_helpers.o
+ .text.asm.do_dcsw_op
+                0x0000000000000000       0xdc ./build/rpi3/debug/bl2/cache_helpers.o
+ .text.asm.dcsw_op_louis
+                0x0000000000000000       0x14 ./build/rpi3/debug/bl2/cache_helpers.o
+ .text.asm.dcsw_op_all
+                0x0000000000000000       0x14 ./build/rpi3/debug/bl2/cache_helpers.o
+ .text.asm.dcsw_op_level1
+                0x0000000000000000       0x10 ./build/rpi3/debug/bl2/cache_helpers.o
+ .text.asm.dcsw_op_level2
+                0x0000000000000000       0x10 ./build/rpi3/debug/bl2/cache_helpers.o
+ .text.asm.dcsw_op_level3
+                0x0000000000000000       0x10 ./build/rpi3/debug/bl2/cache_helpers.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/misc_helpers.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/misc_helpers.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/misc_helpers.o
+ .text.asm.memcpy16
+                0x0000000000000000       0x48 ./build/rpi3/debug/bl2/misc_helpers.o
+ .text.asm.disable_mmu_el3
+                0x0000000000000000       0x1c ./build/rpi3/debug/bl2/misc_helpers.o
+ .text.asm.disable_mmu_icache_el3
+                0x0000000000000000        0x8 ./build/rpi3/debug/bl2/misc_helpers.o
+ .text.asm.disable_mmu_el1
+                0x0000000000000000       0x1c ./build/rpi3/debug/bl2/misc_helpers.o
+ .text.asm.disable_mmu_icache_el1
+                0x0000000000000000        0x8 ./build/rpi3/debug/bl2/misc_helpers.o
+ .text.asm.fixup_gdt_reloc
+                0x0000000000000000       0xbc ./build/rpi3/debug/bl2/misc_helpers.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/platform_helpers.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/platform_helpers.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/platform_helpers.o
+ .text.asm.plat_reset_handler
+                0x0000000000000000        0x4 ./build/rpi3/debug/bl2/platform_helpers.o
+ .text.asm.plat_disable_acp
+                0x0000000000000000        0x4 ./build/rpi3/debug/bl2/platform_helpers.o
+ .text.asm.bl1_plat_prepare_exit
+                0x0000000000000000        0x4 ./build/rpi3/debug/bl2/platform_helpers.o
+ .text.asm.bl31_plat_enable_mmu
+                0x0000000000000000        0x4 ./build/rpi3/debug/bl2/platform_helpers.o
+ .text.asm.bl32_plat_enable_mmu
+                0x0000000000000000        0x4 ./build/rpi3/debug/bl2/platform_helpers.o
+ .text.asm.plat_handle_uncontainable_ea
+                0x0000000000000000        0x4 ./build/rpi3/debug/bl2/platform_helpers.o
+ .text.asm.plat_handle_double_fault
+                0x0000000000000000        0x4 ./build/rpi3/debug/bl2/platform_helpers.o
+ .text.asm.plat_handle_el3_ea
+                0x0000000000000000        0x4 ./build/rpi3/debug/bl2/platform_helpers.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/16550_console.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/16550_console.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/16550_console.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/enable_mmu.o
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/bl2/enable_mmu.o
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/bl2/enable_mmu.o
+ .text.asm.enable_mmu_direct_el2
+                0x0000000000000000       0x70 ./build/rpi3/debug/bl2/enable_mmu.o
+ .text.asm.enable_mmu_direct_el3
+                0x0000000000000000       0x70 ./build/rpi3/debug/bl2/enable_mmu.o
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(assert.o)
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(assert.o)
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(assert.o)
+ .eh_frame      0x0000000000000000       0x30 ./build/rpi3/debug/lib/libc.a(assert.o)
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memcmp.o)
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memcmp.o)
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memcmp.o)
+ .eh_frame      0x0000000000000000       0x28 ./build/rpi3/debug/lib/libc.a(memcmp.o)
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memcpy.o)
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memcpy.o)
+ .eh_frame      0x0000000000000000       0x28 ./build/rpi3/debug/lib/libc.a(memcpy.o)
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memmove.o)
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memmove.o)
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memmove.o)
+ .eh_frame      0x0000000000000000       0x28 ./build/rpi3/debug/lib/libc.a(memmove.o)
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memset.o)
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memset.o)
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memset.o)
+ .eh_frame      0x0000000000000000       0x28 ./build/rpi3/debug/lib/libc.a(memset.o)
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(printf.o)
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(printf.o)
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(printf.o)
+ .eh_frame      0x0000000000000000       0xb0 ./build/rpi3/debug/lib/libc.a(printf.o)
+ .text          0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(putchar.o)
+ .data          0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(putchar.o)
+ .bss           0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(putchar.o)
+ .eh_frame      0x0000000000000000       0x38 ./build/rpi3/debug/lib/libc.a(putchar.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x00000000100b4000 0x000000000002c000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x00000000100b4000                . = 0x100b4000
+                0x0000000000000001                ASSERT ((. == ALIGN (0x1000)), BL2_BASE address is not aligned on a page boundary.)
+
+.text           0x00000000100b4000     0x6000
+                0x00000000100b4000                __TEXT_START__ = .
+ *bl2_entrypoint.o(.text*)
+ .text.asm.bl2_entrypoint
+                0x00000000100b4000       0x9c ./build/rpi3/debug/bl2/bl2_entrypoint.o
+                0x00000000100b4000                bl2_entrypoint
+ *(.text*)
+ .text.flush_bl_params_desc_args
+                0x00000000100b409c       0x5c ./build/rpi3/debug/bl2/desc_image_load.o
+                0x00000000100b409c                flush_bl_params_desc_args
+ .text.flush_bl_params_desc
+                0x00000000100b40f8       0x1c ./build/rpi3/debug/bl2/desc_image_load.o
+                0x00000000100b40f8                flush_bl_params_desc
+ .text.get_bl_params_node_index
+                0x00000000100b4114       0x70 ./build/rpi3/debug/bl2/desc_image_load.o
+                0x00000000100b4114                get_bl_params_node_index
+ .text.get_bl_mem_params_node
+                0x00000000100b4184       0x48 ./build/rpi3/debug/bl2/desc_image_load.o
+                0x00000000100b4184                get_bl_mem_params_node
+ .text.get_bl_load_info_from_mem_params_desc
+                0x00000000100b41cc       0x7c ./build/rpi3/debug/bl2/desc_image_load.o
+                0x00000000100b41cc                get_bl_load_info_from_mem_params_desc
+ .text.get_next_bl_params_from_mem_params_desc
+                0x00000000100b4248      0x150 ./build/rpi3/debug/bl2/desc_image_load.o
+                0x00000000100b4248                get_next_bl_params_from_mem_params_desc
+ .text.device_type_fip
+                0x00000000100b4398        0x8 ./build/rpi3/debug/bl2/io_fip.o
+ .text.fip_file_close
+                0x00000000100b43a0       0x3c ./build/rpi3/debug/bl2/io_fip.o
+ .text.fip_dev_init
+                0x00000000100b43dc       0xd8 ./build/rpi3/debug/bl2/io_fip.o
+ .text.fip_file_read
+                0x00000000100b44b4      0x120 ./build/rpi3/debug/bl2/io_fip.o
+ .text.fip_dev_open
+                0x00000000100b45d4       0x7c ./build/rpi3/debug/bl2/io_fip.o
+ .text.fip_file_len
+                0x00000000100b4650       0x40 ./build/rpi3/debug/bl2/io_fip.o
+ .text.fip_file_open
+                0x00000000100b4690      0x154 ./build/rpi3/debug/bl2/io_fip.o
+ .text.fip_dev_close
+                0x00000000100b47e4       0x70 ./build/rpi3/debug/bl2/io_fip.o
+ .text.register_io_dev_fip
+                0x00000000100b4854       0x4c ./build/rpi3/debug/bl2/io_fip.o
+                0x00000000100b4854                register_io_dev_fip
+ .text.device_type_memmap
+                0x00000000100b48a0        0x8 ./build/rpi3/debug/bl2/io_memmap.o
+ .text.memmap_dev_close
+                0x00000000100b48a8        0x8 ./build/rpi3/debug/bl2/io_memmap.o
+ .text.memmap_dev_open
+                0x00000000100b48b0       0x30 ./build/rpi3/debug/bl2/io_memmap.o
+ .text.memmap_block_len
+                0x00000000100b48e0       0x40 ./build/rpi3/debug/bl2/io_memmap.o
+ .text.memmap_block_seek
+                0x00000000100b4920       0x60 ./build/rpi3/debug/bl2/io_memmap.o
+ .text.memmap_block_close
+                0x00000000100b4980       0x3c ./build/rpi3/debug/bl2/io_memmap.o
+ .text.memmap_block_write
+                0x00000000100b49bc       0x84 ./build/rpi3/debug/bl2/io_memmap.o
+ .text.memmap_block_read
+                0x00000000100b4a40       0x88 ./build/rpi3/debug/bl2/io_memmap.o
+ .text.memmap_block_open
+                0x00000000100b4ac8       0x6c ./build/rpi3/debug/bl2/io_memmap.o
+ .text.register_io_dev_memmap
+                0x00000000100b4b34       0x4c ./build/rpi3/debug/bl2/io_memmap.o
+                0x00000000100b4b34                register_io_dev_memmap
+ .text.is_valid_dev
+                0x00000000100b4b80       0x38 ./build/rpi3/debug/bl2/io_storage.o
+ .text.is_valid_entity
+                0x00000000100b4bb8       0x2c ./build/rpi3/debug/bl2/io_storage.o
+ .text.free_entity
+                0x00000000100b4be4       0x68 ./build/rpi3/debug/bl2/io_storage.o
+ .text.io_register_device
+                0x00000000100b4c4c       0x44 ./build/rpi3/debug/bl2/io_storage.o
+                0x00000000100b4c4c                io_register_device
+ .text.io_dev_open
+                0x00000000100b4c90       0x48 ./build/rpi3/debug/bl2/io_storage.o
+                0x00000000100b4c90                io_dev_open
+ .text.io_dev_init
+                0x00000000100b4cd8       0x6c ./build/rpi3/debug/bl2/io_storage.o
+                0x00000000100b4cd8                io_dev_init
+ .text.io_dev_close
+                0x00000000100b4d44       0x64 ./build/rpi3/debug/bl2/io_storage.o
+                0x00000000100b4d44                io_dev_close
+ .text.io_open  0x00000000100b4da8      0x104 ./build/rpi3/debug/bl2/io_storage.o
+                0x00000000100b4da8                io_open
+ .text.io_seek  0x00000000100b4eac       0x84 ./build/rpi3/debug/bl2/io_storage.o
+                0x00000000100b4eac                io_seek
+ .text.io_size  0x00000000100b4f30       0x68 ./build/rpi3/debug/bl2/io_storage.o
+                0x00000000100b4f30                io_size
+ .text.io_read  0x00000000100b4f98       0x80 ./build/rpi3/debug/bl2/io_storage.o
+                0x00000000100b4f98                io_read
+ .text.io_close
+                0x00000000100b5018       0x64 ./build/rpi3/debug/bl2/io_storage.o
+                0x00000000100b5018                io_close
+ .text.gpio_set_pull
+                0x00000000100b507c       0x5c ./build/rpi3/debug/bl2/gpio.o
+                0x00000000100b507c                gpio_set_pull
+ .text.gpio_init
+                0x00000000100b50d8       0x48 ./build/rpi3/debug/bl2/gpio.o
+                0x00000000100b50d8                gpio_init
+ .text.udelay   0x00000000100b5120       0xa8 ./build/rpi3/debug/bl2/delay_timer.o
+                0x00000000100b5120                udelay
+ .text.mdelay   0x00000000100b51c8        0xc ./build/rpi3/debug/bl2/delay_timer.o
+                0x00000000100b51c8                mdelay
+ .text.timer_init
+                0x00000000100b51d4       0x40 ./build/rpi3/debug/bl2/delay_timer.o
+                0x00000000100b51d4                timer_init
+ .text.get_timer_value
+                0x00000000100b5214        0xc ./build/rpi3/debug/bl2/generic_delay_timer.o
+ .text.generic_delay_timer_init_args
+                0x00000000100b5220       0x20 ./build/rpi3/debug/bl2/generic_delay_timer.o
+                0x00000000100b5220                generic_delay_timer_init_args
+ .text.generic_delay_timer_init
+                0x00000000100b5240       0x44 ./build/rpi3/debug/bl2/generic_delay_timer.o
+                0x00000000100b5240                generic_delay_timer_init
+ .text.rpi3_gpio_get_value
+                0x00000000100b5284       0x38 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .text.rpi3_gpio_set_value
+                0x00000000100b52bc       0x48 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .text.rpi3_gpio_set_pull
+                0x00000000100b5304       0x98 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .text.rpi3_gpio_get_select
+                0x00000000100b539c       0x2c ./build/rpi3/debug/bl2/rpi3_gpio.o
+                0x00000000100b539c                rpi3_gpio_get_select
+ .text.rpi3_gpio_get_direction
+                0x00000000100b53c8       0x1c ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .text.rpi3_gpio_set_select
+                0x00000000100b53e4       0x40 ./build/rpi3/debug/bl2/rpi3_gpio.o
+                0x00000000100b53e4                rpi3_gpio_set_select
+ .text.rpi3_gpio_set_direction
+                0x00000000100b5424       0x20 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .text.rpi3_gpio_init
+                0x00000000100b5444       0x40 ./build/rpi3/debug/bl2/rpi3_gpio.o
+                0x00000000100b5444                rpi3_gpio_init
+ .text.mmc_send_cmd
+                0x00000000100b5484       0x84 ./build/rpi3/debug/bl2/mmc.o
+ .text.mmc_device_state
+                0x00000000100b5508       0x74 ./build/rpi3/debug/bl2/mmc.o
+ .text.mmc_reset_to_idle
+                0x00000000100b557c       0x40 ./build/rpi3/debug/bl2/mmc.o
+ .text.mmc_set_ext_csd
+                0x00000000100b55bc       0x60 ./build/rpi3/debug/bl2/mmc.o
+ .text.mmc_init
+                0x00000000100b561c      0x618 ./build/rpi3/debug/bl2/mmc.o
+                0x00000000100b561c                mmc_init
+ .text.rpi3_sdhost_waitcommand
+                0x00000000100b5c34       0x60 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .text.send_command_decorated
+                0x00000000100b5c94       0x7c ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .text.rpi3_sdhost_write
+                0x00000000100b5d10       0xc8 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .text.rpi3_sdhost_read
+                0x00000000100b5dd8      0x220 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .text.rpi3_sdhost_set_ios
+                0x00000000100b5ff8       0xe0 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .text.rpi3_drain_fifo
+                0x00000000100b60d8       0xa8 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .text.rpi3_sdhost_prepare
+                0x00000000100b6180       0x68 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .text.rpi3_sdhost_send_cmd
+                0x00000000100b61e8      0x224 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .text.rpi3_sdhost_initialize
+                0x00000000100b640c       0xbc ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .text.rpi3_sdhost_init
+                0x00000000100b64c8       0xd8 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+                0x00000000100b64c8                rpi3_sdhost_init
+ .text.rpi3_sdhost_stop
+                0x00000000100b65a0       0xd4 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+                0x00000000100b65a0                rpi3_sdhost_stop
+ .text.bl2_early_platform_setup2
+                0x00000000100b6674       0xa8 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+                0x00000000100b6674                bl2_early_platform_setup2
+ .text.bl2_platform_setup
+                0x00000000100b671c        0x4 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+                0x00000000100b671c                bl2_platform_setup
+ .text.bl2_plat_arch_setup
+                0x00000000100b6720       0x58 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+                0x00000000100b6720                bl2_plat_arch_setup
+ .text.bl2_plat_handle_post_image_load
+                0x00000000100b6778       0xc8 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+                0x00000000100b6778                bl2_plat_handle_post_image_load
+ .text.plat_flush_next_bl_params
+                0x00000000100b6840        0x4 ./build/rpi3/debug/bl2/rpi3_image_load.o
+                0x00000000100b6840                plat_flush_next_bl_params
+ .text.plat_get_bl_image_load_info
+                0x00000000100b6844        0x4 ./build/rpi3/debug/bl2/rpi3_image_load.o
+                0x00000000100b6844                plat_get_bl_image_load_info
+ .text.plat_get_next_bl_params
+                0x00000000100b6848        0x4 ./build/rpi3/debug/bl2/rpi3_image_load.o
+                0x00000000100b6848                plat_get_next_bl_params
+ .text.open_fip
+                0x00000000100b684c       0x60 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .text.open_memmap
+                0x00000000100b68ac       0x60 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .text.plat_rpi3_io_setup
+                0x00000000100b690c       0x90 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+                0x00000000100b690c                plat_rpi3_io_setup
+ .text.plat_get_image_source
+                0x00000000100b699c       0x80 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+                0x00000000100b699c                plat_get_image_source
+ .text.parse_optee_image
+                0x00000000100b6a1c       0xa4 ./build/rpi3/debug/bl2/optee_utils.o
+ .text.parse_optee_header
+                0x00000000100b6ac0      0x1a8 ./build/rpi3/debug/bl2/optee_utils.o
+                0x00000000100b6ac0                parse_optee_header
+ .text.bl2_load_images
+                0x00000000100b6c68      0x1c8 ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+                0x00000000100b6c68                bl2_load_images
+ .text.bl2_setup
+                0x00000000100b6e30       0x14 ./build/rpi3/debug/bl2/bl2_main.o
+                0x00000000100b6e30                bl2_setup
+ .text.bl2_main
+                0x00000000100b6e44       0x6c ./build/rpi3/debug/bl2/bl2_main.o
+                0x00000000100b6e44                bl2_main
+ .text.bl2_arch_setup
+                0x00000000100b6eb0        0xc ./build/rpi3/debug/bl2/bl2_arch_setup.o
+                0x00000000100b6eb0                bl2_arch_setup
+ .text.load_auth_image
+                0x00000000100b6ebc      0x1a8 ./build/rpi3/debug/bl2/bl_common.o
+                0x00000000100b6ebc                load_auth_image
+ .text.tf_log   0x00000000100b7064       0xc8 ./build/rpi3/debug/bl2/tf_log.o
+                0x00000000100b7064                tf_log
+ .text.console_is_registered
+                0x00000000100b712c       0x48 ./build/rpi3/debug/bl2/multi_console.o
+                0x00000000100b712c                console_is_registered
+ .text.console_register
+                0x00000000100b7174       0x70 ./build/rpi3/debug/bl2/multi_console.o
+                0x00000000100b7174                console_register
+ .text.console_set_scope
+                0x00000000100b71e4       0x34 ./build/rpi3/debug/bl2/multi_console.o
+                0x00000000100b71e4                console_set_scope
+ .text.console_putc
+                0x00000000100b7218       0x9c ./build/rpi3/debug/bl2/multi_console.o
+                0x00000000100b7218                console_putc
+ .text.console_flush
+                0x00000000100b72b4       0x70 ./build/rpi3/debug/bl2/multi_console.o
+                0x00000000100b72b4                console_flush
+ .text.plat_error_handler
+                0x00000000100b7324        0x8 ./build/rpi3/debug/bl2/plat_bl_common.o
+                0x00000000100b7324                plat_error_handler
+ .text.bl2_plat_preload_setup
+                0x00000000100b732c        0x4 ./build/rpi3/debug/bl2/plat_bl_common.o
+                0x00000000100b732c                bl2_plat_preload_setup
+ .text.bl2_plat_handle_pre_image_load
+                0x00000000100b7330        0x8 ./build/rpi3/debug/bl2/plat_bl_common.o
+                0x00000000100b7330                bl2_plat_handle_pre_image_load
+ .text.plat_try_next_boot_source
+                0x00000000100b7338        0x8 ./build/rpi3/debug/bl2/plat_bl_common.o
+                0x00000000100b7338                plat_try_next_boot_source
+ .text.plat_log_get_prefix
+                0x00000000100b7340       0x30 ./build/rpi3/debug/bl2/plat_log_common.o
+                0x00000000100b7340                plat_log_get_prefix
+ .text.is_address_readable
+                0x00000000100b7370       0x40 ./build/rpi3/debug/bl2/backtrace.o
+ .text.is_valid_object.constprop.0
+                0x00000000100b73b0       0x54 ./build/rpi3/debug/bl2/backtrace.o
+ .text.backtrace
+                0x00000000100b7404      0x14c ./build/rpi3/debug/bl2/backtrace.o
+                0x00000000100b7404                backtrace
+ .text.rpi3_console_init
+                0x00000000100b7550       0x5c ./build/rpi3/debug/bl2/rpi3_common.o
+                0x00000000100b7550                rpi3_console_init
+ .text.rpi3_setup_page_tables
+                0x00000000100b75ac       0x98 ./build/rpi3/debug/bl2/rpi3_common.o
+                0x00000000100b75ac                rpi3_setup_page_tables
+ .text.rpi3_get_spsr_for_bl32_entry
+                0x00000000100b7644        0x8 ./build/rpi3/debug/bl2/rpi3_common.o
+                0x00000000100b7644                rpi3_get_spsr_for_bl32_entry
+ .text.rpi3_get_spsr_for_bl33_entry
+                0x00000000100b764c        0x8 ./build/rpi3/debug/bl2/rpi3_common.o
+                0x00000000100b764c                rpi3_get_spsr_for_bl33_entry
+ .text.plat_get_syscnt_freq2
+                0x00000000100b7654        0xc ./build/rpi3/debug/bl2/rpi3_common.o
+                0x00000000100b7654                plat_get_syscnt_freq2
+ .text.tcr_physical_addr_size_bits
+                0x00000000100b7660       0x6c ./build/rpi3/debug/bl2/xlat_tables_arch.o
+                0x00000000100b7660                tcr_physical_addr_size_bits
+ .text.xlat_arch_get_max_supported_pa
+                0x00000000100b76cc       0x44 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+                0x00000000100b76cc                xlat_arch_get_max_supported_pa
+ .text.xlat_get_min_virt_addr_space_size
+                0x00000000100b7710       0x1c ./build/rpi3/debug/bl2/xlat_tables_arch.o
+                0x00000000100b7710                xlat_get_min_virt_addr_space_size
+ .text.is_dcache_enabled
+                0x00000000100b772c       0x34 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+                0x00000000100b772c                is_dcache_enabled
+ .text.xlat_arch_regime_get_xn_desc
+                0x00000000100b7760       0x38 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+                0x00000000100b7760                xlat_arch_regime_get_xn_desc
+ .text.xlat_arch_current_el
+                0x00000000100b7798       0x2c ./build/rpi3/debug/bl2/xlat_tables_arch.o
+                0x00000000100b7798                xlat_arch_current_el
+ .text.is_mmu_enabled_ctx
+                0x00000000100b77c4       0x8c ./build/rpi3/debug/bl2/xlat_tables_arch.o
+                0x00000000100b77c4                is_mmu_enabled_ctx
+ .text.setup_mmu_cfg
+                0x00000000100b7850      0x108 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+                0x00000000100b7850                setup_mmu_cfg
+ .text.mmap_add_region
+                0x00000000100b7958       0x34 ./build/rpi3/debug/bl2/xlat_tables_context.o
+                0x00000000100b7958                mmap_add_region
+ .text.mmap_add
+                0x00000000100b798c       0x10 ./build/rpi3/debug/bl2/xlat_tables_context.o
+                0x00000000100b798c                mmap_add
+ .text.init_xlat_tables
+                0x00000000100b799c       0x68 ./build/rpi3/debug/bl2/xlat_tables_context.o
+                0x00000000100b799c                init_xlat_tables
+ .text.enable_mmu_el1
+                0x00000000100b7a04       0x48 ./build/rpi3/debug/bl2/xlat_tables_context.o
+                0x00000000100b7a04                enable_mmu_el1
+ .text.xlat_clean_dcache_range
+                0x00000000100b7a4c       0x40 ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .text.xlat_desc
+                0x00000000100b7a8c      0x104 ./build/rpi3/debug/bl2/xlat_tables_core.o
+                0x00000000100b7a8c                xlat_desc
+ .text.xlat_tables_map_region
+                0x00000000100b7b90      0x274 ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .text.mmap_add_region_ctx
+                0x00000000100b7e04      0x25c ./build/rpi3/debug/bl2/xlat_tables_core.o
+                0x00000000100b7e04                mmap_add_region_ctx
+ .text.mmap_add_ctx
+                0x00000000100b8060       0x3c ./build/rpi3/debug/bl2/xlat_tables_core.o
+                0x00000000100b8060                mmap_add_ctx
+ .text.init_xlat_tables_ctx
+                0x00000000100b809c      0x1e8 ./build/rpi3/debug/bl2/xlat_tables_core.o
+                0x00000000100b809c                init_xlat_tables_ctx
+ .text.xlat_mmap_print
+                0x00000000100b8284        0x4 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+                0x00000000100b8284                xlat_mmap_print
+ .text.xlat_tables_print
+                0x00000000100b8288        0x4 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+                0x00000000100b8288                xlat_tables_print
+ .text.asm.plat_get_my_stack
+                0x00000000100b828c       0x1c ./build/rpi3/debug/bl2/platform_mp_stack.o
+                0x00000000100b828c                plat_get_my_stack
+ .text.asm.plat_set_my_stack
+                0x00000000100b82a8       0x10 ./build/rpi3/debug/bl2/platform_mp_stack.o
+                0x00000000100b82a8                plat_set_my_stack
+ .text.asm.plat_my_core_pos
+                0x00000000100b82b8        0x8 ./build/rpi3/debug/bl2/plat_helpers.o
+                0x00000000100b82b8                plat_my_core_pos
+ .text.asm.plat_rpi3_calc_core_pos
+                0x00000000100b82c0       0x10 ./build/rpi3/debug/bl2/plat_helpers.o
+                0x00000000100b82c0                plat_rpi3_calc_core_pos
+ .text.asm.plat_crash_console_init
+                0x00000000100b82d0       0x1c ./build/rpi3/debug/bl2/plat_helpers.o
+                0x00000000100b82d0                plat_crash_console_init
+ .text.asm.plat_crash_console_putc
+                0x00000000100b82ec        0xc ./build/rpi3/debug/bl2/plat_helpers.o
+                0x00000000100b82ec                plat_crash_console_putc
+ .text.asm.plat_crash_console_flush
+                0x00000000100b82f8        0xc ./build/rpi3/debug/bl2/plat_helpers.o
+                0x00000000100b82f8                plat_crash_console_flush
+ .text.asm.asm_assert
+                0x00000000100b8304       0x60 ./build/rpi3/debug/bl2/debug.o
+                0x00000000100b8304                asm_assert
+ .text.asm.asm_print_str
+                0x00000000100b8364       0x18 ./build/rpi3/debug/bl2/debug.o
+                0x00000000100b8364                asm_print_str
+ .text.asm.asm_print_hex
+                0x00000000100b837c       0x30 ./build/rpi3/debug/bl2/debug.o
+                0x00000000100b837c                asm_print_hex
+                0x00000000100b8380                asm_print_hex_bits
+ .text.asm.do_panic
+                0x00000000100b83ac       0x44 ./build/rpi3/debug/bl2/debug.o
+                0x00000000100b83ac                do_panic
+                0x00000000100b83c4                el3_panic
+ .text.asm.flush_dcache_range
+                0x00000000100b83f0       0x38 ./build/rpi3/debug/bl2/cache_helpers.o
+                0x00000000100b83f0                flush_dcache_range
+ .text.asm.clean_dcache_range
+                0x00000000100b8428       0x38 ./build/rpi3/debug/bl2/cache_helpers.o
+                0x00000000100b8428                clean_dcache_range
+ .text.asm.inv_dcache_range
+                0x00000000100b8460       0x38 ./build/rpi3/debug/bl2/cache_helpers.o
+                0x00000000100b8460                inv_dcache_range
+ .text.asm.smc  0x00000000100b8498        0x4 ./build/rpi3/debug/bl2/misc_helpers.o
+                0x00000000100b8498                smc
+ .text.asm.zeromem
+                0x00000000100b849c        0x8 ./build/rpi3/debug/bl2/misc_helpers.o
+                0x00000000100b849c                zeromem
+ .text.asm.zeromem_dczva
+                0x00000000100b84a4      0x114 ./build/rpi3/debug/bl2/misc_helpers.o
+                0x00000000100b84a4                zero_normalmem
+ .text.asm.plat_report_exception
+                0x00000000100b85b8        0x4 ./build/rpi3/debug/bl2/platform_helpers.o
+                0x00000000100b85b8                plat_report_exception
+ .text.asm.plat_panic_handler
+                0x00000000100b85bc        0x8 ./build/rpi3/debug/bl2/platform_helpers.o
+                0x00000000100b85bc                plat_panic_handler
+ .text.asm.console_16550_core_init
+                0x00000000100b85c4       0x70 ./build/rpi3/debug/bl2/16550_console.o
+                0x00000000100b85c4                console_16550_core_init
+ .text.asm.console_16550_register
+                0x00000000100b8634       0x54 ./build/rpi3/debug/bl2/16550_console.o
+                0x00000000100b8634                console_16550_register
+ .text.asm.console_16550_core_putc
+                0x00000000100b8688       0x4c ./build/rpi3/debug/bl2/16550_console.o
+                0x00000000100b8688                console_16550_core_putc
+ .text.asm.console_16550_putc
+                0x00000000100b86d4       0x1c ./build/rpi3/debug/bl2/16550_console.o
+                0x00000000100b86d4                console_16550_putc
+ .text.asm.console_16550_core_getc
+                0x00000000100b86f0       0x2c ./build/rpi3/debug/bl2/16550_console.o
+                0x00000000100b86f0                console_16550_core_getc
+ .text.asm.console_16550_getc
+                0x00000000100b871c       0x1c ./build/rpi3/debug/bl2/16550_console.o
+                0x00000000100b871c                console_16550_getc
+ .text.asm.console_16550_core_flush
+                0x00000000100b8738       0x2c ./build/rpi3/debug/bl2/16550_console.o
+                0x00000000100b8738                console_16550_core_flush
+ .text.asm.console_16550_flush
+                0x00000000100b8764       0x1c ./build/rpi3/debug/bl2/16550_console.o
+                0x00000000100b8764                console_16550_flush
+ .text.asm.enable_mmu_direct_el1
+                0x00000000100b8780       0x70 ./build/rpi3/debug/bl2/enable_mmu.o
+                0x00000000100b8780                enable_mmu_direct_el1
+ .text.__assert
+                0x00000000100b87f0       0x30 ./build/rpi3/debug/lib/libc.a(assert.o)
+                0x00000000100b87f0                __assert
+ .text.memcmp   0x00000000100b8820       0x34 ./build/rpi3/debug/lib/libc.a(memcmp.o)
+                0x00000000100b8820                memcmp
+ .text.memcpy   0x00000000100b8854       0x20 ./build/rpi3/debug/lib/libc.a(memcpy.o)
+                0x00000000100b8854                memcpy
+ .text.memmove  0x00000000100b8874       0x34 ./build/rpi3/debug/lib/libc.a(memmove.o)
+                0x00000000100b8874                memmove
+ .text.memset   0x00000000100b88a8       0x1c ./build/rpi3/debug/lib/libc.a(memset.o)
+                0x00000000100b88a8                memset
+ .text.unsigned_num_print
+                0x00000000100b88c4       0xd0 ./build/rpi3/debug/lib/libc.a(printf.o)
+ .text.vprintf  0x00000000100b8994      0x400 ./build/rpi3/debug/lib/libc.a(printf.o)
+                0x00000000100b8994                vprintf
+ .text.printf   0x00000000100b8d94       0x54 ./build/rpi3/debug/lib/libc.a(printf.o)
+                0x00000000100b8d94                printf
+ .text.putchar  0x00000000100b8de8       0x2c ./build/rpi3/debug/lib/libc.a(putchar.o)
+                0x00000000100b8de8                putchar
+ *(.vectors)
+ *fill*         0x00000000100b8e14      0x1ec 
+ .vectors       0x00000000100b9000      0x800 ./build/rpi3/debug/bl2/early_exceptions.o
+                0x00000000100b9000                early_exceptions
+                0x00000000100ba000                . = ALIGN (0x1000)
+ *fill*         0x00000000100b9800      0x800 
+                0x00000000100ba000                __TEXT_END__ = .
+
+.iplt           0x00000000100ba000        0x0
+ .iplt          0x00000000100ba000        0x0 ./build/rpi3/debug/bl2/build_message.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+
+.rodata         0x00000000100ba000     0x2000
+                0x00000000100ba000                __RODATA_START__ = .
+ *(.rodata*)
+ .rodata.build_message
+                0x00000000100ba000       0x1e ./build/rpi3/debug/bl2/build_message.o
+                0x00000000100ba000                build_message
+ .rodata.version_string
+                0x00000000100ba01e       0x1c ./build/rpi3/debug/bl2/build_message.o
+                0x00000000100ba01e                version_string
+ .rodata.flush_bl_params_desc_args.str1.1
+                0x00000000100ba03a       0x19 ./build/rpi3/debug/bl2/desc_image_load.o
+ .rodata.fip_dev_init.str1.1
+                0x00000000100ba053       0x83 ./build/rpi3/debug/bl2/io_fip.o
+ .rodata.fip_file_read.str1.1
+                0x00000000100ba0d6       0x6c ./build/rpi3/debug/bl2/io_fip.o
+ .rodata.fip_file_open.str1.1
+                0x00000000100ba142       0x97 ./build/rpi3/debug/bl2/io_fip.o
+ *fill*         0x00000000100ba1d9        0x7 
+ .rodata.fip_dev_connector
+                0x00000000100ba1e0        0x8 ./build/rpi3/debug/bl2/io_fip.o
+ .rodata.fip_dev_funcs
+                0x00000000100ba1e8       0x48 ./build/rpi3/debug/bl2/io_fip.o
+ .rodata.uuid_null
+                0x00000000100ba230       0x10 ./build/rpi3/debug/bl2/io_fip.o
+ .rodata.memmap_dev_open.str1.1
+                0x00000000100ba240       0x17 ./build/rpi3/debug/bl2/io_memmap.o
+ .rodata.memmap_block_open.str1.1
+                0x00000000100ba257       0x32 ./build/rpi3/debug/bl2/io_memmap.o
+ *fill*         0x00000000100ba289        0x7 
+ .rodata.memmap_dev_connector
+                0x00000000100ba290        0x8 ./build/rpi3/debug/bl2/io_memmap.o
+ .rodata.memmap_dev_funcs
+                0x00000000100ba298       0x48 ./build/rpi3/debug/bl2/io_memmap.o
+ .rodata.memmap_dev_info
+                0x00000000100ba2e0       0x10 ./build/rpi3/debug/bl2/io_memmap.o
+ .rodata.free_entity.str1.1
+                0x00000000100ba2f0       0x18 ./build/rpi3/debug/bl2/io_storage.o
+ .rodata.gpio_get_direction.str1.1
+                0x00000000100ba308       0x14 ./build/rpi3/debug/bl2/gpio.o
+ .rodata.udelay.str1.1
+                0x00000000100ba31c       0x22 ./build/rpi3/debug/bl2/delay_timer.o
+ .rodata.rpi3_gpio_init.str1.1
+                0x00000000100ba33e       0x1e ./build/rpi3/debug/bl2/rpi3_gpio.o
+ *fill*         0x00000000100ba35c        0x4 
+ .rodata.rpi3_gpio_ops
+                0x00000000100ba360       0x30 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .rodata.mmc_device_state.str1.1
+                0x00000000100ba390       0x20 ./build/rpi3/debug/bl2/mmc.o
+ .rodata.mmc_read_blocks.str1.1
+                0x00000000100ba3b0       0x12 ./build/rpi3/debug/bl2/mmc.o
+ .rodata.mmc_init.str1.1
+                0x00000000100ba3c2       0x95 ./build/rpi3/debug/bl2/mmc.o
+ .rodata.sd_tran_speed_base
+                0x00000000100ba457       0x10 ./build/rpi3/debug/bl2/mmc.o
+ .rodata.tran_speed_base
+                0x00000000100ba467       0x10 ./build/rpi3/debug/bl2/mmc.o
+ .rodata.rpi3_sdhost_read.str1.1
+                0x00000000100ba477      0x290 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .rodata.rpi3_sdhost_set_ios.str1.1
+                0x00000000100ba707       0x26 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .rodata.rpi3_drain_fifo.str1.1
+                0x00000000100ba72d       0x26 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .rodata.rpi3_sdhost_send_cmd.str1.1
+                0x00000000100ba753       0xd5 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .rodata.rpi3_sdhost_initialize.str1.1
+                0x00000000100ba828       0x22 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .rodata.CSWTCH.15
+                0x00000000100ba84a       0x68 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .rodata.__func__.2604
+                0x00000000100ba8b2       0x10 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ *fill*         0x00000000100ba8c2        0x6 
+ .rodata.rpi3_sdhost_ops
+                0x00000000100ba8c8       0x30 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .rodata.bl2_plat_handle_post_image_load.str1.1
+                0x00000000100ba8f8       0x3b ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ .rodata.plat_rpi3_io_setup.str1.1
+                0x00000000100ba933       0x22 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .rodata.bl2_uuid_spec
+                0x00000000100ba955       0x10 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .rodata.bl31_uuid_spec
+                0x00000000100ba965       0x10 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .rodata.bl32_extra1_uuid_spec
+                0x00000000100ba975       0x10 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .rodata.bl32_extra2_uuid_spec
+                0x00000000100ba985       0x10 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .rodata.bl32_uuid_spec
+                0x00000000100ba995       0x10 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .rodata.bl33_uuid_spec
+                0x00000000100ba9a5       0x10 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ *fill*         0x00000000100ba9b5        0x3 
+ .rodata.fip_block_spec
+                0x00000000100ba9b8       0x10 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .rodata.policies
+                0x00000000100ba9c8      0x228 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .rodata.parse_optee_image.str1.1
+                0x00000000100babf0       0x4d ./build/rpi3/debug/bl2/optee_utils.o
+ .rodata.parse_optee_header.str1.1
+                0x00000000100bac3d      0x116 ./build/rpi3/debug/bl2/optee_utils.o
+ .rodata.bl2_load_images.str1.1
+                0x00000000100bad53      0x114 ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+ .rodata.bl2_main.str1.1
+                0x00000000100bae67        0xa ./build/rpi3/debug/bl2/bl2_main.o
+ .rodata.load_auth_image.str1.1
+                0x00000000100bae71       0xd8 ./build/rpi3/debug/bl2/bl_common.o
+                                        0x12d (size before relaxing)
+ .rodata.tf_log.str1.1
+                0x00000000100baf49       0x10 ./build/rpi3/debug/bl2/tf_log.o
+ .rodata.console_unregister.str1.1
+                0x00000000100baf59       0x20 ./build/rpi3/debug/bl2/multi_console.o
+ .rodata.str1.1
+                0x00000000100baf79       0x32 ./build/rpi3/debug/bl2/plat_log_common.o
+ *fill*         0x00000000100bafab        0x5 
+ .rodata.plat_prefix_str
+                0x00000000100bafb0       0x28 ./build/rpi3/debug/bl2/plat_log_common.o
+ .rodata.backtrace.str1.1
+                0x00000000100bafd8       0xdb ./build/rpi3/debug/bl2/backtrace.o
+ .rodata.__func__.2424
+                0x00000000100bb0b3       0x12 ./build/rpi3/debug/bl2/rpi3_common.o
+ *fill*         0x00000000100bb0c5        0x3 
+ .rodata.plat_rpi3_mmap
+                0x00000000100bb0c8       0xf0 ./build/rpi3/debug/bl2/rpi3_common.o
+ .rodata.xlat_arch_get_max_supported_granule_size.str1.1
+                0x00000000100bb1b8       0x2e ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ *fill*         0x00000000100bb1e6        0x2 
+ .rodata.pa_range_bits_arr
+                0x00000000100bb1e8       0x1c ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .rodata.mmap_add_alloc_va.str1.1
+                0x00000000100bb204       0x29 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .rodata.xlat_desc.str1.1
+                0x00000000100bb22d       0x26 ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .rodata.mmap_add_region_ctx.str1.1
+                0x00000000100bb253       0x2b ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .rodata.init_xlat_tables_ctx.str1.1
+                0x00000000100bb27e       0x4f ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .rodata.__func__.2541
+                0x00000000100bb2cd       0x15 ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .rodata.assert_str
+                0x00000000100bb2e2       0x15 ./build/rpi3/debug/bl2/debug.o
+ .rodata.panic_str
+                0x00000000100bb2f7       0x11 ./build/rpi3/debug/bl2/debug.o
+ .rodata.str1.1
+                0x00000000100bb308       0x1b ./build/rpi3/debug/bl2/misc_helpers.o
+ .rodata.str1.1
+                0x00000000100bb323       0x28 ./build/rpi3/debug/bl2/16550_console.o
+ .rodata.str1.1
+                0x00000000100bb34b       0x28 ./build/rpi3/debug/bl2/enable_mmu.o
+ .rodata.__assert.str1.1
+                0x00000000100bb373       0x16 ./build/rpi3/debug/lib/libc.a(assert.o)
+ .rodata.vprintf.str1.1
+                0x00000000100bb389       0x15 ./build/rpi3/debug/lib/libc.a(printf.o)
+ *fill*         0x00000000100bb39e        0x2 
+ .rodata.vprintf
+                0x00000000100bb3a0       0x2e ./build/rpi3/debug/lib/libc.a(printf.o)
+                0x00000000100bb3d0                . = ALIGN (0x8)
+ *fill*         0x00000000100bb3ce        0x2 
+                0x00000000100bb3d0                __PARSER_LIB_DESCS_START__ = .
+ *(.img_parser_lib_descs)
+                0x00000000100bb3d0                __PARSER_LIB_DESCS_END__ = .
+                0x00000000100bc000                . = ALIGN (0x1000)
+ *fill*         0x00000000100bb3d0      0xc30 
+                0x00000000100bc000                __RODATA_END__ = .
+                0x00000000100bc000                __RW_START__ = .
+
+.rela.dyn       0x00000000100bc000        0x0
+ .rela.iplt     0x00000000100bc000        0x0 ./build/rpi3/debug/bl2/build_message.o
+ .rela.text.bl2_plat_arch_setup
+                0x00000000100bc000        0x0 ./build/rpi3/debug/bl2/build_message.o
+ .rela.text.console_is_registered
+                0x00000000100bc000        0x0 ./build/rpi3/debug/bl2/build_message.o
+ .rela.text.console_register
+                0x00000000100bc000        0x0 ./build/rpi3/debug/bl2/build_message.o
+ .rela.text.console_putc
+                0x00000000100bc000        0x0 ./build/rpi3/debug/bl2/build_message.o
+ .rela.text.console_flush
+                0x00000000100bc000        0x0 ./build/rpi3/debug/bl2/build_message.o
+ .rela.text.enable_mmu_el1
+                0x00000000100bc000        0x0 ./build/rpi3/debug/bl2/build_message.o
+ .rela.text.asm.bl2_entrypoint
+                0x00000000100bc000        0x0 ./build/rpi3/debug/bl2/build_message.o
+ .rela.text.asm.enable_mmu_direct_el1
+                0x00000000100bc000        0x0 ./build/rpi3/debug/bl2/build_message.o
+
+.data           0x00000000100bc000      0x410
+                0x00000000100bc000                __DATA_START__ = .
+ *(.data*)
+ .data.bl2_mem_params_descs
+                0x00000000100bc000      0x398 ./build/rpi3/debug/bl2/rpi3_bl2_mem_params_desc.o
+ .data.bl_mem_params_desc_num
+                0x00000000100bc398        0x4 ./build/rpi3/debug/bl2/rpi3_bl2_mem_params_desc.o
+                0x00000000100bc398                bl_mem_params_desc_num
+ *fill*         0x00000000100bc39c        0x4 
+ .data.bl_mem_params_desc_ptr
+                0x00000000100bc3a0        0x8 ./build/rpi3/debug/bl2/rpi3_bl2_mem_params_desc.o
+                0x00000000100bc3a0                bl_mem_params_desc_ptr
+ .data.max_log_level
+                0x00000000100bc3a8        0x4 ./build/rpi3/debug/bl2/tf_log.o
+ .data.console_state
+                0x00000000100bc3ac        0x1 ./build/rpi3/debug/bl2/multi_console.o
+                0x00000000100bc3ac                console_state
+ *fill*         0x00000000100bc3ad        0x3 
+ .data.tf_xlat_ctx
+                0x00000000100bc3b0       0x60 ./build/rpi3/debug/bl2/xlat_tables_context.o
+                0x00000000100bc410                __DATA_END__ = .
+
+.igot.plt       0x00000000100bc410        0x0
+ .igot.plt      0x00000000100bc410        0x0 ./build/rpi3/debug/bl2/build_message.o
+
+stacks          0x00000000100bc440     0x4000
+                0x00000000100bc440                __STACKS_START__ = .
+ *(tzfw_normal_stacks)
+ tzfw_normal_stacks
+                0x00000000100bc440     0x4000 ./build/rpi3/debug/bl2/platform_mp_stack.o
+                0x00000000100c0440                __STACKS_END__ = .
+
+.bss            0x00000000100c0440      0x5d0
+                0x00000000100c0440                __BSS_START__ = .
+ *(SORT_BY_ALIGNMENT(.bss*))
+ .bss.bl2_tzram_layout
+                0x00000000100c0440       0x10 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ *fill*         0x00000000100c0450       0x10 
+ .bss.tf_base_xlat_table
+                0x00000000100c0460       0x20 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .bss.mmc_ext_csd
+                0x00000000100c0480      0x200 ./build/rpi3/debug/bl2/mmc.o
+ .bss.scr       0x00000000100c0680        0x8 ./build/rpi3/debug/bl2/mmc.o
+ .bss.bl_load_info
+                0x00000000100c0688       0x10 ./build/rpi3/debug/bl2/desc_image_load.o
+ .bss.next_bl_params
+                0x00000000100c0698       0x10 ./build/rpi3/debug/bl2/desc_image_load.o
+ .bss.backend_dev_handle
+                0x00000000100c06a8        0x8 ./build/rpi3/debug/bl2/io_fip.o
+ .bss.backend_image_spec
+                0x00000000100c06b0        0x8 ./build/rpi3/debug/bl2/io_fip.o
+ .bss.current_file
+                0x00000000100c06b8       0x30 ./build/rpi3/debug/bl2/io_fip.o
+ .bss.dev_info_pool
+                0x00000000100c06e8       0x10 ./build/rpi3/debug/bl2/io_fip.o
+ .bss.state_pool
+                0x00000000100c06f8        0x8 ./build/rpi3/debug/bl2/io_fip.o
+ .bss.current_file
+                0x00000000100c0700       0x20 ./build/rpi3/debug/bl2/io_memmap.o
+ .bss.entity_map
+                0x00000000100c0720       0x20 ./build/rpi3/debug/bl2/io_storage.o
+ .bss.entity_pool
+                0x00000000100c0740       0x40 ./build/rpi3/debug/bl2/io_storage.o
+ .bss.ops       0x00000000100c0780        0x8 ./build/rpi3/debug/bl2/gpio.o
+ .bss.timer_ops
+                0x00000000100c0788        0x8 ./build/rpi3/debug/bl2/delay_timer.o
+ .bss.ops       0x00000000100c0790       0x10 ./build/rpi3/debug/bl2/generic_delay_timer.o
+ .bss.rpi3_gpio_params
+                0x00000000100c07a0        0x8 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .bss.mmc_dev_info
+                0x00000000100c07a8        0x8 ./build/rpi3/debug/bl2/mmc.o
+ .bss.ops       0x00000000100c07b0        0x8 ./build/rpi3/debug/bl2/mmc.o
+ .bss.rpi3_sdhost_params
+                0x00000000100c07b8       0x40 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .bss.mmc_info  0x00000000100c07f8       0x18 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ .bss.fip_dev_con
+                0x00000000100c0810        0x8 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .bss.fip_dev_handle
+                0x00000000100c0818        0x8 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .bss.memmap_dev_con
+                0x00000000100c0820        0x8 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .bss.memmap_dev_handle
+                0x00000000100c0828        0x8 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .bss.rpi3_console
+                0x00000000100c0830       0x30 ./build/rpi3/debug/bl2/rpi3_common.o
+ .bss.tf_mmap   0x00000000100c0860      0x168 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .bss.fip_dev_count
+                0x00000000100c09c8        0x4 ./build/rpi3/debug/bl2/io_fip.o
+ .bss.dev_count
+                0x00000000100c09cc        0x4 ./build/rpi3/debug/bl2/io_storage.o
+ .bss.entity_count
+                0x00000000100c09d0        0x4 ./build/rpi3/debug/bl2/io_storage.o
+ .bss.mmc_csd   0x00000000100c09d4       0x10 ./build/rpi3/debug/bl2/mmc.o
+ .bss.mmc_flags
+                0x00000000100c09e4        0x4 ./build/rpi3/debug/bl2/mmc.o
+ .bss.mmc_ocr_value
+                0x00000000100c09e8        0x4 ./build/rpi3/debug/bl2/mmc.o
+ .bss.rca       0x00000000100c09ec        0x4 ./build/rpi3/debug/bl2/mmc.o
+ *(COMMON)
+ COMMON         0x00000000100c09f0        0x8 ./build/rpi3/debug/bl2/multi_console.o
+                0x00000000100c09f0                console_list
+ COMMON         0x00000000100c09f8       0x18 ./build/rpi3/debug/bl2/xlat_tables_context.o
+                0x00000000100c09f8                mmu_cfg_params
+                0x00000000100c0a10                __BSS_END__ = .
+
+xlat_table      0x00000000100c1000     0x4000
+ *(xlat_table)
+ xlat_table     0x00000000100c1000     0x4000 ./build/rpi3/debug/bl2/xlat_tables_context.o
+
+coherent_ram    0x00000000100c5000        0x0
+                0x00000000100c5000                __COHERENT_RAM_START__ = .
+ *(tzfw_coherent_mem)
+                0x00000000100c5000                __COHERENT_RAM_END_UNALIGNED__ = .
+                0x00000000100c5000                . = ALIGN (0x1000)
+                0x00000000100c5000                __COHERENT_RAM_END__ = .
+                0x00000000100c5000                __RW_END__ = .
+                0x00000000100c5000                __BL2_END__ = .
+                0x00000000000005d0                __BSS_SIZE__ = SIZEOF (.bss)
+                0x0000000000000000                __COHERENT_RAM_UNALIGNED_SIZE__ = (__COHERENT_RAM_END_UNALIGNED__ - __COHERENT_RAM_START__)
+                0x0000000000000001                ASSERT ((. <= 0x100e0000), BL2 image has exceeded its limit.)
+LOAD ./build/rpi3/debug/bl2/build_message.o
+LOAD ./build/rpi3/debug/bl2/desc_image_load.o
+LOAD ./build/rpi3/debug/bl2/io_fip.o
+LOAD ./build/rpi3/debug/bl2/io_memmap.o
+LOAD ./build/rpi3/debug/bl2/io_storage.o
+LOAD ./build/rpi3/debug/bl2/gpio.o
+LOAD ./build/rpi3/debug/bl2/delay_timer.o
+LOAD ./build/rpi3/debug/bl2/generic_delay_timer.o
+LOAD ./build/rpi3/debug/bl2/rpi3_gpio.o
+LOAD ./build/rpi3/debug/bl2/io_block.o
+LOAD ./build/rpi3/debug/bl2/mmc.o
+LOAD ./build/rpi3/debug/bl2/rpi3_sdhost.o
+LOAD ./build/rpi3/debug/bl2/rpi3_bl2_mem_params_desc.o
+LOAD ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+LOAD ./build/rpi3/debug/bl2/rpi3_image_load.o
+LOAD ./build/rpi3/debug/bl2/rpi3_io_storage.o
+LOAD ./build/rpi3/debug/bl2/optee_utils.o
+LOAD ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+LOAD ./build/rpi3/debug/bl2/bl2_main.o
+LOAD ./build/rpi3/debug/bl2/bl2_arch_setup.o
+LOAD ./build/rpi3/debug/bl2/bl_common.o
+LOAD ./build/rpi3/debug/bl2/tf_log.o
+LOAD ./build/rpi3/debug/bl2/multi_console.o
+LOAD ./build/rpi3/debug/bl2/plat_bl_common.o
+LOAD ./build/rpi3/debug/bl2/plat_log_common.o
+LOAD ./build/rpi3/debug/bl2/plat_common.o
+LOAD ./build/rpi3/debug/bl2/backtrace.o
+LOAD ./build/rpi3/debug/bl2/rpi3_common.o
+LOAD ./build/rpi3/debug/bl2/xlat_tables_arch.o
+LOAD ./build/rpi3/debug/bl2/xlat_tables_context.o
+LOAD ./build/rpi3/debug/bl2/xlat_tables_core.o
+LOAD ./build/rpi3/debug/bl2/xlat_tables_utils.o
+LOAD ./build/rpi3/debug/bl2/platform_mp_stack.o
+LOAD ./build/rpi3/debug/bl2/plat_helpers.o
+LOAD ./build/rpi3/debug/bl2/spinlock.o
+LOAD ./build/rpi3/debug/bl2/platform_up_stack.o
+LOAD ./build/rpi3/debug/bl2/early_exceptions.o
+LOAD ./build/rpi3/debug/bl2/bl2_entrypoint.o
+LOAD ./build/rpi3/debug/bl2/debug.o
+LOAD ./build/rpi3/debug/bl2/cache_helpers.o
+LOAD ./build/rpi3/debug/bl2/misc_helpers.o
+LOAD ./build/rpi3/debug/bl2/platform_helpers.o
+LOAD ./build/rpi3/debug/bl2/16550_console.o
+LOAD ./build/rpi3/debug/bl2/enable_mmu.o
+LOAD ./build/rpi3/debug/lib/libfdt.a
+LOAD ./build/rpi3/debug/lib/libc.a
+OUTPUT(build/rpi3/debug/bl2/bl2.elf elf64-littleaarch64)
+
+.debug_info     0x0000000000000000    0x13055
+ .debug_info    0x0000000000000000       0x83 ./build/rpi3/debug/bl2/build_message.o
+ .debug_info    0x0000000000000083      0xb34 ./build/rpi3/debug/bl2/desc_image_load.o
+ .debug_info    0x0000000000000bb7     0x1326 ./build/rpi3/debug/bl2/io_fip.o
+ .debug_info    0x0000000000001edd      0xd89 ./build/rpi3/debug/bl2/io_memmap.o
+ .debug_info    0x0000000000002c66     0x11eb ./build/rpi3/debug/bl2/io_storage.o
+ .debug_info    0x0000000000003e51      0x4a6 ./build/rpi3/debug/bl2/gpio.o
+ .debug_info    0x00000000000042f7      0x34e ./build/rpi3/debug/bl2/delay_timer.o
+ .debug_info    0x0000000000004645      0x34f ./build/rpi3/debug/bl2/generic_delay_timer.o
+ .debug_info    0x0000000000004994      0xa02 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .debug_info    0x0000000000005396     0x1c4c ./build/rpi3/debug/bl2/mmc.o
+ .debug_info    0x0000000000006fe2     0x2593 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .debug_info    0x0000000000009575      0x478 ./build/rpi3/debug/bl2/rpi3_bl2_mem_params_desc.o
+ .debug_info    0x00000000000099ed      0xa44 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ .debug_info    0x000000000000a431      0x566 ./build/rpi3/debug/bl2/rpi3_image_load.o
+ .debug_info    0x000000000000a997      0xa8b ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .debug_info    0x000000000000b422      0x84a ./build/rpi3/debug/bl2/optee_utils.o
+ .debug_info    0x000000000000bc6c      0x6e2 ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+ .debug_info    0x000000000000c34e      0x4ac ./build/rpi3/debug/bl2/bl2_main.o
+ .debug_info    0x000000000000c7fa      0x1e6 ./build/rpi3/debug/bl2/bl2_arch_setup.o
+ .debug_info    0x000000000000c9e0      0x7a6 ./build/rpi3/debug/bl2/bl_common.o
+ .debug_info    0x000000000000d186      0x315 ./build/rpi3/debug/bl2/tf_log.o
+ .debug_info    0x000000000000d49b      0x6e5 ./build/rpi3/debug/bl2/multi_console.o
+ .debug_info    0x000000000000db80      0x38d ./build/rpi3/debug/bl2/plat_bl_common.o
+ .debug_info    0x000000000000df0d      0x1e9 ./build/rpi3/debug/bl2/plat_log_common.o
+ .debug_info    0x000000000000e0f6      0x875 ./build/rpi3/debug/bl2/backtrace.o
+ .debug_info    0x000000000000e96b      0x711 ./build/rpi3/debug/bl2/rpi3_common.o
+ .debug_info    0x000000000000f07c      0xd5b ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .debug_info    0x000000000000fdd7      0x932 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .debug_info    0x0000000000010709     0x1006 ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .debug_info    0x000000000001170f      0xb51 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .debug_info    0x0000000000012260       0x22 ./build/rpi3/debug/bl2/platform_mp_stack.o
+ .debug_info    0x0000000000012282       0x22 ./build/rpi3/debug/bl2/plat_helpers.o
+ .debug_info    0x00000000000122a4       0x2e ./build/rpi3/debug/bl2/early_exceptions.o
+ .debug_info    0x00000000000122d2       0x2e ./build/rpi3/debug/bl2/bl2_entrypoint.o
+ .debug_info    0x0000000000012300       0x22 ./build/rpi3/debug/bl2/debug.o
+ .debug_info    0x0000000000012322       0x22 ./build/rpi3/debug/bl2/cache_helpers.o
+ .debug_info    0x0000000000012344       0x22 ./build/rpi3/debug/bl2/misc_helpers.o
+ .debug_info    0x0000000000012366       0x22 ./build/rpi3/debug/bl2/platform_helpers.o
+ .debug_info    0x0000000000012388       0x22 ./build/rpi3/debug/bl2/16550_console.o
+ .debug_info    0x00000000000123aa       0x22 ./build/rpi3/debug/bl2/enable_mmu.o
+ .debug_info    0x00000000000123cc      0x241 ./build/rpi3/debug/lib/libc.a(assert.o)
+ .debug_info    0x000000000001260d      0x10b ./build/rpi3/debug/lib/libc.a(memcmp.o)
+ .debug_info    0x0000000000012718       0xdc ./build/rpi3/debug/lib/libc.a(memcpy.o)
+ .debug_info    0x00000000000127f4      0x12e ./build/rpi3/debug/lib/libc.a(memmove.o)
+ .debug_info    0x0000000000012922       0xc1 ./build/rpi3/debug/lib/libc.a(memset.o)
+ .debug_info    0x00000000000129e3      0x581 ./build/rpi3/debug/lib/libc.a(printf.o)
+ .debug_info    0x0000000000012f64       0xf1 ./build/rpi3/debug/lib/libc.a(putchar.o)
+
+.debug_abbrev   0x0000000000000000     0x46c6
+ .debug_abbrev  0x0000000000000000       0x45 ./build/rpi3/debug/bl2/build_message.o
+ .debug_abbrev  0x0000000000000045      0x2b1 ./build/rpi3/debug/bl2/desc_image_load.o
+ .debug_abbrev  0x00000000000002f6      0x368 ./build/rpi3/debug/bl2/io_fip.o
+ .debug_abbrev  0x000000000000065e      0x25d ./build/rpi3/debug/bl2/io_memmap.o
+ .debug_abbrev  0x00000000000008bb      0x353 ./build/rpi3/debug/bl2/io_storage.o
+ .debug_abbrev  0x0000000000000c0e      0x155 ./build/rpi3/debug/bl2/gpio.o
+ .debug_abbrev  0x0000000000000d63      0x158 ./build/rpi3/debug/bl2/delay_timer.o
+ .debug_abbrev  0x0000000000000ebb      0x1dc ./build/rpi3/debug/bl2/generic_delay_timer.o
+ .debug_abbrev  0x0000000000001097      0x279 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .debug_abbrev  0x0000000000001310      0x489 ./build/rpi3/debug/bl2/mmc.o
+ .debug_abbrev  0x0000000000001799      0x41c ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .debug_abbrev  0x0000000000001bb5       0xd1 ./build/rpi3/debug/bl2/rpi3_bl2_mem_params_desc.o
+ .debug_abbrev  0x0000000000001c86      0x259 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ .debug_abbrev  0x0000000000001edf      0x107 ./build/rpi3/debug/bl2/rpi3_image_load.o
+ .debug_abbrev  0x0000000000001fe6      0x249 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .debug_abbrev  0x000000000000222f      0x1bf ./build/rpi3/debug/bl2/optee_utils.o
+ .debug_abbrev  0x00000000000023ee      0x13c ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+ .debug_abbrev  0x000000000000252a      0x153 ./build/rpi3/debug/bl2/bl2_main.o
+ .debug_abbrev  0x000000000000267d       0xce ./build/rpi3/debug/bl2/bl2_arch_setup.o
+ .debug_abbrev  0x000000000000274b      0x1f6 ./build/rpi3/debug/bl2/bl_common.o
+ .debug_abbrev  0x0000000000002941      0x14c ./build/rpi3/debug/bl2/tf_log.o
+ .debug_abbrev  0x0000000000002a8d      0x254 ./build/rpi3/debug/bl2/multi_console.o
+ .debug_abbrev  0x0000000000002ce1      0x1ff ./build/rpi3/debug/bl2/plat_bl_common.o
+ .debug_abbrev  0x0000000000002ee0       0xd7 ./build/rpi3/debug/bl2/plat_log_common.o
+ .debug_abbrev  0x0000000000002fb7      0x2fa ./build/rpi3/debug/bl2/backtrace.o
+ .debug_abbrev  0x00000000000032b1      0x1d0 ./build/rpi3/debug/bl2/rpi3_common.o
+ .debug_abbrev  0x0000000000003481      0x335 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .debug_abbrev  0x00000000000037b6      0x1df ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .debug_abbrev  0x0000000000003995      0x38c ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .debug_abbrev  0x0000000000003d21      0x295 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .debug_abbrev  0x0000000000003fb6       0x12 ./build/rpi3/debug/bl2/platform_mp_stack.o
+ .debug_abbrev  0x0000000000003fc8       0x12 ./build/rpi3/debug/bl2/plat_helpers.o
+ .debug_abbrev  0x0000000000003fda       0x14 ./build/rpi3/debug/bl2/early_exceptions.o
+ .debug_abbrev  0x0000000000003fee       0x14 ./build/rpi3/debug/bl2/bl2_entrypoint.o
+ .debug_abbrev  0x0000000000004002       0x12 ./build/rpi3/debug/bl2/debug.o
+ .debug_abbrev  0x0000000000004014       0x12 ./build/rpi3/debug/bl2/cache_helpers.o
+ .debug_abbrev  0x0000000000004026       0x12 ./build/rpi3/debug/bl2/misc_helpers.o
+ .debug_abbrev  0x0000000000004038       0x12 ./build/rpi3/debug/bl2/platform_helpers.o
+ .debug_abbrev  0x000000000000404a       0x12 ./build/rpi3/debug/bl2/16550_console.o
+ .debug_abbrev  0x000000000000405c       0x12 ./build/rpi3/debug/bl2/enable_mmu.o
+ .debug_abbrev  0x000000000000406e       0xe3 ./build/rpi3/debug/lib/libc.a(assert.o)
+ .debug_abbrev  0x0000000000004151       0x94 ./build/rpi3/debug/lib/libc.a(memcmp.o)
+ .debug_abbrev  0x00000000000041e5       0xa1 ./build/rpi3/debug/lib/libc.a(memcpy.o)
+ .debug_abbrev  0x0000000000004286       0xc6 ./build/rpi3/debug/lib/libc.a(memmove.o)
+ .debug_abbrev  0x000000000000434c       0xa0 ./build/rpi3/debug/lib/libc.a(memset.o)
+ .debug_abbrev  0x00000000000043ec      0x240 ./build/rpi3/debug/lib/libc.a(printf.o)
+ .debug_abbrev  0x000000000000462c       0x9a ./build/rpi3/debug/lib/libc.a(putchar.o)
+
+.debug_aranges  0x0000000000000000     0x1430
+ .debug_aranges
+                0x0000000000000000       0x20 ./build/rpi3/debug/bl2/build_message.o
+ .debug_aranges
+                0x0000000000000020       0xa0 ./build/rpi3/debug/bl2/desc_image_load.o
+ .debug_aranges
+                0x00000000000000c0       0xb0 ./build/rpi3/debug/bl2/io_fip.o
+ .debug_aranges
+                0x0000000000000170       0xc0 ./build/rpi3/debug/bl2/io_memmap.o
+ .debug_aranges
+                0x0000000000000230       0xf0 ./build/rpi3/debug/bl2/io_storage.o
+ .debug_aranges
+                0x0000000000000320       0x90 ./build/rpi3/debug/bl2/gpio.o
+ .debug_aranges
+                0x00000000000003b0       0x50 ./build/rpi3/debug/bl2/delay_timer.o
+ .debug_aranges
+                0x0000000000000400       0x50 ./build/rpi3/debug/bl2/generic_delay_timer.o
+ .debug_aranges
+                0x0000000000000450       0xa0 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .debug_aranges
+                0x00000000000004f0       0xd0 ./build/rpi3/debug/bl2/mmc.o
+ .debug_aranges
+                0x00000000000005c0       0xd0 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .debug_aranges
+                0x0000000000000690       0x20 ./build/rpi3/debug/bl2/rpi3_bl2_mem_params_desc.o
+ .debug_aranges
+                0x00000000000006b0       0x60 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ .debug_aranges
+                0x0000000000000710       0x50 ./build/rpi3/debug/bl2/rpi3_image_load.o
+ .debug_aranges
+                0x0000000000000760       0x60 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .debug_aranges
+                0x00000000000007c0       0x40 ./build/rpi3/debug/bl2/optee_utils.o
+ .debug_aranges
+                0x0000000000000800       0x30 ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+ .debug_aranges
+                0x0000000000000830       0x40 ./build/rpi3/debug/bl2/bl2_main.o
+ .debug_aranges
+                0x0000000000000870       0x30 ./build/rpi3/debug/bl2/bl2_arch_setup.o
+ .debug_aranges
+                0x00000000000008a0       0x50 ./build/rpi3/debug/bl2/bl_common.o
+ .debug_aranges
+                0x00000000000008f0       0x40 ./build/rpi3/debug/bl2/tf_log.o
+ .debug_aranges
+                0x0000000000000930       0xa0 ./build/rpi3/debug/bl2/multi_console.o
+ .debug_aranges
+                0x00000000000009d0       0x70 ./build/rpi3/debug/bl2/plat_bl_common.o
+ .debug_aranges
+                0x0000000000000a40       0x30 ./build/rpi3/debug/bl2/plat_log_common.o
+ .debug_aranges
+                0x0000000000000a70       0x50 ./build/rpi3/debug/bl2/backtrace.o
+ .debug_aranges
+                0x0000000000000ac0       0x90 ./build/rpi3/debug/bl2/rpi3_common.o
+ .debug_aranges
+                0x0000000000000b50       0xe0 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .debug_aranges
+                0x0000000000000c30       0xc0 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .debug_aranges
+                0x0000000000000cf0       0x90 ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .debug_aranges
+                0x0000000000000d80       0x70 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .debug_aranges
+                0x0000000000000df0       0x40 ./build/rpi3/debug/bl2/platform_mp_stack.o
+ .debug_aranges
+                0x0000000000000e30       0xb0 ./build/rpi3/debug/bl2/plat_helpers.o
+ .debug_aranges
+                0x0000000000000ee0       0x30 ./build/rpi3/debug/bl2/early_exceptions.o
+ .debug_aranges
+                0x0000000000000f10       0x30 ./build/rpi3/debug/bl2/bl2_entrypoint.o
+ .debug_aranges
+                0x0000000000000f40       0x70 ./build/rpi3/debug/bl2/debug.o
+ .debug_aranges
+                0x0000000000000fb0       0xb0 ./build/rpi3/debug/bl2/cache_helpers.o
+ .debug_aranges
+                0x0000000000001060       0xb0 ./build/rpi3/debug/bl2/misc_helpers.o
+ .debug_aranges
+                0x0000000000001110       0xc0 ./build/rpi3/debug/bl2/platform_helpers.o
+ .debug_aranges
+                0x00000000000011d0       0xa0 ./build/rpi3/debug/bl2/16550_console.o
+ .debug_aranges
+                0x0000000000001270       0x50 ./build/rpi3/debug/bl2/enable_mmu.o
+ .debug_aranges
+                0x00000000000012c0       0x30 ./build/rpi3/debug/lib/libc.a(assert.o)
+ .debug_aranges
+                0x00000000000012f0       0x30 ./build/rpi3/debug/lib/libc.a(memcmp.o)
+ .debug_aranges
+                0x0000000000001320       0x30 ./build/rpi3/debug/lib/libc.a(memcpy.o)
+ .debug_aranges
+                0x0000000000001350       0x30 ./build/rpi3/debug/lib/libc.a(memmove.o)
+ .debug_aranges
+                0x0000000000001380       0x30 ./build/rpi3/debug/lib/libc.a(memset.o)
+ .debug_aranges
+                0x00000000000013b0       0x50 ./build/rpi3/debug/lib/libc.a(printf.o)
+ .debug_aranges
+                0x0000000000001400       0x30 ./build/rpi3/debug/lib/libc.a(putchar.o)
+
+.debug_line     0x0000000000000000     0x8b6c
+ .debug_line    0x0000000000000000       0x28 ./build/rpi3/debug/bl2/build_message.o
+ .debug_line    0x0000000000000028      0x646 ./build/rpi3/debug/bl2/desc_image_load.o
+ .debug_line    0x000000000000066e      0x68d ./build/rpi3/debug/bl2/io_fip.o
+ .debug_line    0x0000000000000cfb      0x438 ./build/rpi3/debug/bl2/io_memmap.o
+ .debug_line    0x0000000000001133      0x665 ./build/rpi3/debug/bl2/io_storage.o
+ .debug_line    0x0000000000001798      0x2fc ./build/rpi3/debug/bl2/gpio.o
+ .debug_line    0x0000000000001a94      0x1d0 ./build/rpi3/debug/bl2/delay_timer.o
+ .debug_line    0x0000000000001c64      0x1c3 ./build/rpi3/debug/bl2/generic_delay_timer.o
+ .debug_line    0x0000000000001e27      0x401 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .debug_line    0x0000000000002228      0xb83 ./build/rpi3/debug/bl2/mmc.o
+ .debug_line    0x0000000000002dab     0x1146 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .debug_line    0x0000000000003ef1       0xfa ./build/rpi3/debug/bl2/rpi3_bl2_mem_params_desc.o
+ .debug_line    0x0000000000003feb      0x3e4 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ .debug_line    0x00000000000043cf      0x13b ./build/rpi3/debug/bl2/rpi3_image_load.o
+ .debug_line    0x000000000000450a      0x2b9 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .debug_line    0x00000000000047c3      0x2fc ./build/rpi3/debug/bl2/optee_utils.o
+ .debug_line    0x0000000000004abf      0x275 ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+ .debug_line    0x0000000000004d34      0x197 ./build/rpi3/debug/bl2/bl2_main.o
+ .debug_line    0x0000000000004ecb       0xd1 ./build/rpi3/debug/bl2/bl2_arch_setup.o
+ .debug_line    0x0000000000004f9c      0x342 ./build/rpi3/debug/bl2/bl_common.o
+ .debug_line    0x00000000000052de      0x1a3 ./build/rpi3/debug/bl2/tf_log.o
+ .debug_line    0x0000000000005481      0x44a ./build/rpi3/debug/bl2/multi_console.o
+ .debug_line    0x00000000000058cb      0x196 ./build/rpi3/debug/bl2/plat_bl_common.o
+ .debug_line    0x0000000000005a61       0xaa ./build/rpi3/debug/bl2/plat_log_common.o
+ .debug_line    0x0000000000005b0b      0x34f ./build/rpi3/debug/bl2/backtrace.o
+ .debug_line    0x0000000000005e5a      0x28b ./build/rpi3/debug/bl2/rpi3_common.o
+ .debug_line    0x00000000000060e5      0x712 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .debug_line    0x00000000000067f7      0x332 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .debug_line    0x0000000000006b29      0x8fe ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .debug_line    0x0000000000007427      0x677 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .debug_line    0x0000000000007a9e       0x73 ./build/rpi3/debug/bl2/platform_mp_stack.o
+ .debug_line    0x0000000000007b11      0x110 ./build/rpi3/debug/bl2/plat_helpers.o
+ .debug_line    0x0000000000007c21       0x93 ./build/rpi3/debug/bl2/early_exceptions.o
+ .debug_line    0x0000000000007cb4       0x7d ./build/rpi3/debug/bl2/bl2_entrypoint.o
+ .debug_line    0x0000000000007d31       0xcd ./build/rpi3/debug/bl2/debug.o
+ .debug_line    0x0000000000007dfe      0x110 ./build/rpi3/debug/bl2/cache_helpers.o
+ .debug_line    0x0000000000007f0e      0x17c ./build/rpi3/debug/bl2/misc_helpers.o
+ .debug_line    0x000000000000808a      0x10c ./build/rpi3/debug/bl2/platform_helpers.o
+ .debug_line    0x0000000000008196      0x131 ./build/rpi3/debug/bl2/16550_console.o
+ .debug_line    0x00000000000082c7       0x84 ./build/rpi3/debug/bl2/enable_mmu.o
+ .debug_line    0x000000000000834b      0x113 ./build/rpi3/debug/lib/libc.a(assert.o)
+ .debug_line    0x000000000000845e       0xa9 ./build/rpi3/debug/lib/libc.a(memcmp.o)
+ .debug_line    0x0000000000008507       0x89 ./build/rpi3/debug/lib/libc.a(memcpy.o)
+ .debug_line    0x0000000000008590       0xcf ./build/rpi3/debug/lib/libc.a(memmove.o)
+ .debug_line    0x000000000000865f       0x85 ./build/rpi3/debug/lib/libc.a(memset.o)
+ .debug_line    0x00000000000086e4      0x409 ./build/rpi3/debug/lib/libc.a(printf.o)
+ .debug_line    0x0000000000008aed       0x7f ./build/rpi3/debug/lib/libc.a(putchar.o)
+
+.debug_str      0x0000000000000000     0x2dc0
+ .debug_str     0x0000000000000000      0x174 ./build/rpi3/debug/bl2/build_message.o
+                                        0x18b (size before relaxing)
+ .debug_str     0x0000000000000174      0x571 ./build/rpi3/debug/bl2/desc_image_load.o
+                                        0x7f3 (size before relaxing)
+ .debug_str     0x00000000000006e5      0x4fc ./build/rpi3/debug/bl2/io_fip.o
+                                        0x8d7 (size before relaxing)
+ .debug_str     0x0000000000000be1      0x143 ./build/rpi3/debug/bl2/io_memmap.o
+                                        0x6b3 (size before relaxing)
+ .debug_str     0x0000000000000d24      0x109 ./build/rpi3/debug/bl2/io_storage.o
+                                        0x67e (size before relaxing)
+ .debug_str     0x0000000000000e2d       0x3a ./build/rpi3/debug/bl2/gpio.o
+                                        0x3fe (size before relaxing)
+ .debug_str     0x0000000000000e67       0x7d ./build/rpi3/debug/bl2/delay_timer.o
+                                        0x3b2 (size before relaxing)
+ .debug_str     0x0000000000000ee4       0xa7 ./build/rpi3/debug/bl2/generic_delay_timer.o
+                                        0x403 (size before relaxing)
+ .debug_str     0x0000000000000f8b      0x145 ./build/rpi3/debug/bl2/rpi3_gpio.o
+                                        0x4f6 (size before relaxing)
+ .debug_str     0x00000000000010d0      0x4e5 ./build/rpi3/debug/bl2/mmc.o
+                                        0x885 (size before relaxing)
+ .debug_str     0x00000000000015b5      0x22a ./build/rpi3/debug/bl2/rpi3_sdhost.o
+                                        0x6f7 (size before relaxing)
+ .debug_str     0x00000000000017df       0x46 ./build/rpi3/debug/bl2/rpi3_bl2_mem_params_desc.o
+                                        0x54f (size before relaxing)
+ .debug_str     0x0000000000001825      0x1cd ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+                                        0x875 (size before relaxing)
+ .debug_str     0x00000000000019f2       0x70 ./build/rpi3/debug/bl2/rpi3_image_load.o
+                                        0x613 (size before relaxing)
+ .debug_str     0x0000000000001a62      0x11e ./build/rpi3/debug/bl2/rpi3_io_storage.o
+                                        0x6e9 (size before relaxing)
+ .debug_str     0x0000000000001b80       0xfd ./build/rpi3/debug/bl2/optee_utils.o
+                                        0x65c (size before relaxing)
+ .debug_str     0x0000000000001c7d       0x96 ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+                                        0x68a (size before relaxing)
+ .debug_str     0x0000000000001d13       0x66 ./build/rpi3/debug/bl2/bl2_main.o
+                                        0x483 (size before relaxing)
+ .debug_str     0x0000000000001d79       0x2d ./build/rpi3/debug/bl2/bl2_arch_setup.o
+                                        0x348 (size before relaxing)
+ .debug_str     0x0000000000001da6       0x8e ./build/rpi3/debug/bl2/bl_common.o
+                                        0x568 (size before relaxing)
+ .debug_str     0x0000000000001e34       0x8f ./build/rpi3/debug/bl2/tf_log.o
+                                        0x3b8 (size before relaxing)
+ .debug_str     0x0000000000001ec3      0x125 ./build/rpi3/debug/bl2/multi_console.o
+                                        0x474 (size before relaxing)
+ .debug_str     0x0000000000001fe8       0x97 ./build/rpi3/debug/bl2/plat_bl_common.o
+                                        0x453 (size before relaxing)
+ .debug_str     0x000000000000207f       0x2e ./build/rpi3/debug/bl2/plat_log_common.o
+                                        0x351 (size before relaxing)
+ .debug_str     0x00000000000020ad      0x140 ./build/rpi3/debug/bl2/backtrace.o
+                                        0x495 (size before relaxing)
+ .debug_str     0x00000000000021ed      0x128 ./build/rpi3/debug/bl2/rpi3_common.o
+                                        0x5ad (size before relaxing)
+ .debug_str     0x0000000000002315      0x320 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+                                        0x6bf (size before relaxing)
+ .debug_str     0x0000000000002635      0x1ab ./build/rpi3/debug/bl2/xlat_tables_context.o
+                                        0x63a (size before relaxing)
+ .debug_str     0x00000000000027e0      0x28f ./build/rpi3/debug/bl2/xlat_tables_core.o
+                                        0x821 (size before relaxing)
+ .debug_str     0x0000000000002a6f      0x115 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+                                        0x658 (size before relaxing)
+ .debug_str     0x0000000000002b84       0x36 ./build/rpi3/debug/bl2/platform_mp_stack.o
+                                         0x95 (size before relaxing)
+ .debug_str     0x0000000000002bba       0x25 ./build/rpi3/debug/bl2/plat_helpers.o
+                                         0x92 (size before relaxing)
+ .debug_str     0x0000000000002bdf       0x22 ./build/rpi3/debug/bl2/early_exceptions.o
+                                         0x8f (size before relaxing)
+ .debug_str     0x0000000000002c01       0x1d ./build/rpi3/debug/bl2/bl2_entrypoint.o
+                                         0x8a (size before relaxing)
+ .debug_str     0x0000000000002c1e       0x17 ./build/rpi3/debug/bl2/debug.o
+                                         0x84 (size before relaxing)
+ .debug_str     0x0000000000002c35       0x1c ./build/rpi3/debug/bl2/cache_helpers.o
+                                         0x89 (size before relaxing)
+ .debug_str     0x0000000000002c51       0x1b ./build/rpi3/debug/bl2/misc_helpers.o
+                                         0x88 (size before relaxing)
+ .debug_str     0x0000000000002c6c       0x27 ./build/rpi3/debug/bl2/platform_helpers.o
+                                         0x94 (size before relaxing)
+ .debug_str     0x0000000000002c93       0x28 ./build/rpi3/debug/bl2/16550_console.o
+                                         0x95 (size before relaxing)
+ .debug_str     0x0000000000002cbb       0x28 ./build/rpi3/debug/bl2/enable_mmu.o
+                                         0x95 (size before relaxing)
+ .debug_str     0x0000000000002ce3       0x25 ./build/rpi3/debug/lib/libc.a(assert.o)
+                                        0x342 (size before relaxing)
+ .debug_str     0x0000000000002d08       0x12 ./build/rpi3/debug/lib/libc.a(memcmp.o)
+                                        0x1a0 (size before relaxing)
+ .debug_str     0x0000000000002d1a       0x12 ./build/rpi3/debug/lib/libc.a(memcpy.o)
+                                        0x197 (size before relaxing)
+ .debug_str     0x0000000000002d2c       0x13 ./build/rpi3/debug/lib/libc.a(memmove.o)
+                                        0x197 (size before relaxing)
+ .debug_str     0x0000000000002d3f       0x12 ./build/rpi3/debug/lib/libc.a(memset.o)
+                                        0x19d (size before relaxing)
+ .debug_str     0x0000000000002d51       0x5c ./build/rpi3/debug/lib/libc.a(printf.o)
+                                        0x3aa (size before relaxing)
+ .debug_str     0x0000000000002dad       0x13 ./build/rpi3/debug/lib/libc.a(putchar.o)
+                                        0x223 (size before relaxing)
+
+.comment        0x0000000000000000       0x5a
+ .comment       0x0000000000000000       0x5a ./build/rpi3/debug/bl2/build_message.o
+                                         0x5b (size before relaxing)
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/desc_image_load.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/io_fip.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/io_memmap.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/io_storage.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/gpio.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/delay_timer.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/generic_delay_timer.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/mmc.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/rpi3_bl2_mem_params_desc.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/rpi3_image_load.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/optee_utils.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/bl2_main.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/bl2_arch_setup.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/bl_common.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/tf_log.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/multi_console.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/plat_bl_common.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/plat_log_common.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/backtrace.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/rpi3_common.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/lib/libc.a(assert.o)
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/lib/libc.a(memcmp.o)
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/lib/libc.a(memcpy.o)
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/lib/libc.a(memmove.o)
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/lib/libc.a(memset.o)
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/lib/libc.a(printf.o)
+ .comment       0x000000000000005a       0x5b ./build/rpi3/debug/lib/libc.a(putchar.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/build_message.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/desc_image_load.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_fip.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_memmap.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/io_storage.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/gpio.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/delay_timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/generic_delay_timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/mmc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_bl2_mem_params_desc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_image_load.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/optee_utils.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl2_arch_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/bl_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/tf_log.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/multi_console.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_bl_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/plat_log_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/backtrace.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/rpi3_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(assert.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memcmp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memmove.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(memset.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(printf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/rpi3/debug/lib/libc.a(putchar.o)
+
+.debug_loc      0x0000000000000000    0x13280
+ .debug_loc     0x0000000000000000      0xdc6 ./build/rpi3/debug/bl2/desc_image_load.o
+ .debug_loc     0x0000000000000dc6     0x1431 ./build/rpi3/debug/bl2/io_fip.o
+ .debug_loc     0x00000000000021f7      0xfd8 ./build/rpi3/debug/bl2/io_memmap.o
+ .debug_loc     0x00000000000031cf     0x1c1a ./build/rpi3/debug/bl2/io_storage.o
+ .debug_loc     0x0000000000004de9      0x5a1 ./build/rpi3/debug/bl2/gpio.o
+ .debug_loc     0x000000000000538a      0x17f ./build/rpi3/debug/bl2/delay_timer.o
+ .debug_loc     0x0000000000005509      0x12d ./build/rpi3/debug/bl2/generic_delay_timer.o
+ .debug_loc     0x0000000000005636     0x103f ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .debug_loc     0x0000000000006675     0x1e3a ./build/rpi3/debug/bl2/mmc.o
+ .debug_loc     0x00000000000084af     0x2549 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .debug_loc     0x000000000000a9f8      0x444 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ .debug_loc     0x000000000000ae3c      0x406 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .debug_loc     0x000000000000b242      0x50e ./build/rpi3/debug/bl2/optee_utils.o
+ .debug_loc     0x000000000000b750      0x261 ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+ .debug_loc     0x000000000000b9b1      0x12e ./build/rpi3/debug/bl2/bl2_main.o
+ .debug_loc     0x000000000000badf       0x28 ./build/rpi3/debug/bl2/bl2_arch_setup.o
+ .debug_loc     0x000000000000bb07      0x65f ./build/rpi3/debug/bl2/bl_common.o
+ .debug_loc     0x000000000000c166      0x18a ./build/rpi3/debug/bl2/tf_log.o
+ .debug_loc     0x000000000000c2f0      0x5e0 ./build/rpi3/debug/bl2/multi_console.o
+ .debug_loc     0x000000000000c8d0       0xf1 ./build/rpi3/debug/bl2/plat_bl_common.o
+ .debug_loc     0x000000000000c9c1       0xd6 ./build/rpi3/debug/bl2/plat_log_common.o
+ .debug_loc     0x000000000000ca97      0x578 ./build/rpi3/debug/bl2/backtrace.o
+ .debug_loc     0x000000000000d00f      0x3f0 ./build/rpi3/debug/bl2/rpi3_common.o
+ .debug_loc     0x000000000000d3ff      0xc95 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .debug_loc     0x000000000000e094      0x6b2 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .debug_loc     0x000000000000e746     0x1d57 ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .debug_loc     0x000000000001049d     0x11f6 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .debug_loc     0x0000000000011693       0xa4 ./build/rpi3/debug/lib/libc.a(assert.o)
+ .debug_loc     0x0000000000011737      0x29e ./build/rpi3/debug/lib/libc.a(memcmp.o)
+ .debug_loc     0x00000000000119d5      0x15e ./build/rpi3/debug/lib/libc.a(memcpy.o)
+ .debug_loc     0x0000000000011b33      0x1ff ./build/rpi3/debug/lib/libc.a(memmove.o)
+ .debug_loc     0x0000000000011d32       0xe9 ./build/rpi3/debug/lib/libc.a(memset.o)
+ .debug_loc     0x0000000000011e1b     0x13ee ./build/rpi3/debug/lib/libc.a(printf.o)
+ .debug_loc     0x0000000000013209       0x77 ./build/rpi3/debug/lib/libc.a(putchar.o)
+
+.debug_ranges   0x0000000000000000     0x2a80
+ .debug_ranges  0x0000000000000000      0x110 ./build/rpi3/debug/bl2/desc_image_load.o
+ .debug_ranges  0x0000000000000110      0x280 ./build/rpi3/debug/bl2/io_fip.o
+ .debug_ranges  0x0000000000000390      0x1c0 ./build/rpi3/debug/bl2/io_memmap.o
+ .debug_ranges  0x0000000000000550      0x320 ./build/rpi3/debug/bl2/io_storage.o
+ .debug_ranges  0x0000000000000870       0x80 ./build/rpi3/debug/bl2/gpio.o
+ .debug_ranges  0x00000000000008f0       0x40 ./build/rpi3/debug/bl2/delay_timer.o
+ .debug_ranges  0x0000000000000930       0x40 ./build/rpi3/debug/bl2/generic_delay_timer.o
+ .debug_ranges  0x0000000000000970      0x150 ./build/rpi3/debug/bl2/rpi3_gpio.o
+ .debug_ranges  0x0000000000000ac0      0x400 ./build/rpi3/debug/bl2/mmc.o
+ .debug_ranges  0x0000000000000ec0      0x640 ./build/rpi3/debug/bl2/rpi3_sdhost.o
+ .debug_ranges  0x0000000000001500       0x80 ./build/rpi3/debug/bl2/rpi3_bl2_setup.o
+ .debug_ranges  0x0000000000001580       0x40 ./build/rpi3/debug/bl2/rpi3_image_load.o
+ .debug_ranges  0x00000000000015c0       0x50 ./build/rpi3/debug/bl2/rpi3_io_storage.o
+ .debug_ranges  0x0000000000001610       0x30 ./build/rpi3/debug/bl2/optee_utils.o
+ .debug_ranges  0x0000000000001640       0x20 ./build/rpi3/debug/bl2/bl2_image_load_v2.o
+ .debug_ranges  0x0000000000001660       0x30 ./build/rpi3/debug/bl2/bl2_main.o
+ .debug_ranges  0x0000000000001690       0x20 ./build/rpi3/debug/bl2/bl2_arch_setup.o
+ .debug_ranges  0x00000000000016b0       0xe0 ./build/rpi3/debug/bl2/bl_common.o
+ .debug_ranges  0x0000000000001790       0x30 ./build/rpi3/debug/bl2/tf_log.o
+ .debug_ranges  0x00000000000017c0      0x140 ./build/rpi3/debug/bl2/multi_console.o
+ .debug_ranges  0x0000000000001900       0x60 ./build/rpi3/debug/bl2/plat_bl_common.o
+ .debug_ranges  0x0000000000001960       0x20 ./build/rpi3/debug/bl2/plat_log_common.o
+ .debug_ranges  0x0000000000001980       0xf0 ./build/rpi3/debug/bl2/backtrace.o
+ .debug_ranges  0x0000000000001a70       0x80 ./build/rpi3/debug/bl2/rpi3_common.o
+ .debug_ranges  0x0000000000001af0      0x290 ./build/rpi3/debug/bl2/xlat_tables_arch.o
+ .debug_ranges  0x0000000000001d80       0xb0 ./build/rpi3/debug/bl2/xlat_tables_context.o
+ .debug_ranges  0x0000000000001e30      0x450 ./build/rpi3/debug/bl2/xlat_tables_core.o
+ .debug_ranges  0x0000000000002280      0x1f0 ./build/rpi3/debug/bl2/xlat_tables_utils.o
+ .debug_ranges  0x0000000000002470       0x40 ./build/rpi3/debug/bl2/platform_mp_stack.o
+ .debug_ranges  0x00000000000024b0       0xb0 ./build/rpi3/debug/bl2/plat_helpers.o
+ .debug_ranges  0x0000000000002560       0x70 ./build/rpi3/debug/bl2/debug.o
+ .debug_ranges  0x00000000000025d0       0xb0 ./build/rpi3/debug/bl2/cache_helpers.o
+ .debug_ranges  0x0000000000002680       0xb0 ./build/rpi3/debug/bl2/misc_helpers.o
+ .debug_ranges  0x0000000000002730       0xc0 ./build/rpi3/debug/bl2/platform_helpers.o
+ .debug_ranges  0x00000000000027f0       0xa0 ./build/rpi3/debug/bl2/16550_console.o
+ .debug_ranges  0x0000000000002890       0x50 ./build/rpi3/debug/bl2/enable_mmu.o
+ .debug_ranges  0x00000000000028e0       0x20 ./build/rpi3/debug/lib/libc.a(assert.o)
+ .debug_ranges  0x0000000000002900       0x20 ./build/rpi3/debug/lib/libc.a(memcmp.o)
+ .debug_ranges  0x0000000000002920       0x20 ./build/rpi3/debug/lib/libc.a(memcpy.o)
+ .debug_ranges  0x0000000000002940       0x50 ./build/rpi3/debug/lib/libc.a(memmove.o)
+ .debug_ranges  0x0000000000002990       0x20 ./build/rpi3/debug/lib/libc.a(memset.o)
+ .debug_ranges  0x00000000000029b0       0xb0 ./build/rpi3/debug/lib/libc.a(printf.o)
+ .debug_ranges  0x0000000000002a60       0x20 ./build/rpi3/debug/lib/libc.a(putchar.o)
+
+.debug_frame    0x0000000000000000      0x760
+ .debug_frame   0x0000000000000000       0x40 ./build/rpi3/debug/bl2/platform_mp_stack.o
+ .debug_frame   0x0000000000000040       0xe8 ./build/rpi3/debug/bl2/plat_helpers.o
+ .debug_frame   0x0000000000000128      0x190 ./build/rpi3/debug/bl2/early_exceptions.o
+ .debug_frame   0x00000000000002b8       0x28 ./build/rpi3/debug/bl2/bl2_entrypoint.o
+ .debug_frame   0x00000000000002e0       0x88 ./build/rpi3/debug/bl2/debug.o
+ .debug_frame   0x0000000000000368       0xe8 ./build/rpi3/debug/bl2/cache_helpers.o
+ .debug_frame   0x0000000000000450       0xe8 ./build/rpi3/debug/bl2/misc_helpers.o
+ .debug_frame   0x0000000000000538      0x100 ./build/rpi3/debug/bl2/platform_helpers.o
+ .debug_frame   0x0000000000000638       0xd0 ./build/rpi3/debug/bl2/16550_console.o
+ .debug_frame   0x0000000000000708       0x58 ./build/rpi3/debug/bl2/enable_mmu.o

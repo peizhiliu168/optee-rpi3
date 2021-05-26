@@ -1,0 +1,1 @@
+cmd_net/ethernet/built-in.a := rm -f net/ethernet/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST net/ethernet/built-in.a net/ethernet/eth.o

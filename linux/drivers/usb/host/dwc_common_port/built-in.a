@@ -1,0 +1,17 @@
+!<thin>
+//                                              96        `
+dwc_cc.o/
+dwc_modpow.o/
+dwc_dh.o/
+dwc_crypto.o/
+dwc_notifier.o/
+dwc_common_linux.o/
+dwc_mem.o/
+
+/0              0           0     0     644     13120     `
+/10             0           0     0     644     992       `
+/24             0           0     0     644     984       `
+/34             0           0     0     644     992       `
+/48             0           0     0     644     9968      `
+/64             0           0     0     644     139992    `
+/84             0           0     0     644     984       `

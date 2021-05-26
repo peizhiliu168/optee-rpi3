@@ -1,0 +1,1 @@
+cmd_fs/quota/built-in.a := rm -f fs/quota/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST fs/quota/built-in.a fs/quota/dquot.o fs/quota/quota.o fs/quota/kqid.o

@@ -1,0 +1,3 @@
+drivers/dma/virt-dma.ko
+drivers/dma/bcm2708-dmaengine.ko
+drivers/dma/bcm2835-dma.ko

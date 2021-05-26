@@ -1,0 +1,1 @@
+cmd_block/partitions/built-in.a := rm -f block/partitions/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST block/partitions/built-in.a block/partitions/check.o block/partitions/mac.o block/partitions/msdos.o block/partitions/efi.o

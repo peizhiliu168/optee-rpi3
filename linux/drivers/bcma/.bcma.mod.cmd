@@ -1,0 +1,1 @@
+cmd_drivers/bcma/bcma.mod := { echo  drivers/bcma/main.o drivers/bcma/scan.o drivers/bcma/core.o drivers/bcma/sprom.o drivers/bcma/driver_chipcommon.o drivers/bcma/driver_chipcommon_pmu.o drivers/bcma/driver_chipcommon_b.o; echo; } > drivers/bcma/bcma.mod

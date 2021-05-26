@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/built-in.a := rm -f drivers/mmc/host/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST drivers/mmc/host/built-in.a drivers/mmc/host/sdhci.o drivers/mmc/host/bcm2835-mmc.o drivers/mmc/host/bcm2835-sdhost.o drivers/mmc/host/sdhci-pltfm.o

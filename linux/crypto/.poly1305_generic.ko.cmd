@@ -1,0 +1,1 @@
+cmd_crypto/poly1305_generic.ko := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o crypto/poly1305_generic.ko crypto/poly1305_generic.o crypto/poly1305_generic.mod.o;  true

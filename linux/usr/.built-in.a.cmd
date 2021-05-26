@@ -1,0 +1,1 @@
+cmd_usr/built-in.a := rm -f usr/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST usr/built-in.a usr/initramfs_data.o

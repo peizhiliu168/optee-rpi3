@@ -1,5 +1,5 @@
-*.swp
-cscope.*
-out
-.cproject
-.project
+# *.swp
+# cscope.*
+# out
+# .cproject
+# .project

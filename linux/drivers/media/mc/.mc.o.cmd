@@ -1,0 +1,1 @@
+cmd_drivers/media/mc/mc.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf    -r -o drivers/media/mc/mc.o drivers/media/mc/mc-device.o drivers/media/mc/mc-devnode.o drivers/media/mc/mc-entity.o drivers/media/mc/mc-request.o drivers/media/mc/mc-dev-allocator.o

@@ -1,0 +1,1 @@
+cmd_drivers/reset/built-in.a := rm -f drivers/reset/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST drivers/reset/built-in.a drivers/reset/core.o drivers/reset/hisilicon/built-in.a drivers/reset/reset-simple.o

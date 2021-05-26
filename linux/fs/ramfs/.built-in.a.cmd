@@ -1,0 +1,1 @@
+cmd_fs/ramfs/built-in.a := rm -f fs/ramfs/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST fs/ramfs/built-in.a fs/ramfs/inode.o fs/ramfs/file-mmu.o

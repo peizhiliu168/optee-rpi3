@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/vimc/vimc.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf    -r -o drivers/media/platform/vimc/vimc.o drivers/media/platform/vimc/vimc-core.o drivers/media/platform/vimc/vimc-common.o drivers/media/platform/vimc/vimc-streamer.o

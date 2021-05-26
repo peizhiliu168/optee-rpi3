@@ -1,0 +1,1 @@
+cmd_arch/arm/lib/lib.a := rm -f arch/arm/lib/lib.a; /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar rcs arch/arm/lib/lib.a 

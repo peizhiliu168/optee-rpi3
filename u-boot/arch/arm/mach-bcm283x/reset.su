@@ -1,0 +1,4 @@
+reset.c:29:6:hw_watchdog_disable	0	static
+reset.c:35:20:reset_cpu	0	static
+reset.c:55:27:efi_reset_system	16	static
+reset.c:82:14:efi_reset_system_init	0	static

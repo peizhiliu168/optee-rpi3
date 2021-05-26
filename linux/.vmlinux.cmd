@@ -1,0 +1,1 @@
+cmd_vmlinux := sh scripts/link-vmlinux.sh /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf --no-undefined -X -z norelro -shared -Bsymbolic -z notext  --no-apply-dynamic-relocs --fix-cortex-a53-843419 --build-id ;  true

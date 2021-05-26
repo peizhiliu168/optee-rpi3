@@ -1,0 +1,25 @@
+!<thin>
+//                                              176       `
+dma-buf.o/
+dma-fence.o/
+dma-fence-array.o/
+dma-fence-chain.o/
+dma-resv.o/
+seqno-fence.o/
+dma-heap.o/
+heaps/heap-helpers.o/
+heaps/system_heap.o/
+heaps/cma_heap.o/
+sync_file.o/
+
+/0              0           0     0     644     45880     `
+/11             0           0     0     644     48968     `
+/24             0           0     0     644     12952     `
+/43             0           0     0     644     15808     `
+/62             0           0     0     644     26624     `
+/74             0           0     0     644     6408      `
+/89             0           0     0     644     11144     `
+/101            0           0     0     644     11800     `
+/123            0           0     0     644     6304      `
+/144            0           0     0     644     6704      `
+/162            0           0     0     644     16544     `

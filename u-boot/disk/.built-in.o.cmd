@@ -1,0 +1,1 @@
+cmd_disk/built-in.o :=  /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld.bfd     -r -o disk/built-in.o disk/part.o disk/part_dos.o disk/part_iso.o disk/part_efi.o 

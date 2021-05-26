@@ -1,0 +1,5 @@
+drivers/media/platform/vimc/vimc.ko
+drivers/media/platform/vimc/vimc-capture.ko
+drivers/media/platform/vimc/vimc-debayer.ko
+drivers/media/platform/vimc/vimc-scaler.ko
+drivers/media/platform/vimc/vimc-sensor.ko

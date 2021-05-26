@@ -1,0 +1,7 @@
+drivers/gpu/drm/panel/panel-simple.ko
+drivers/gpu/drm/panel/panel-raspberrypi-touchscreen.ko
+drivers/gpu/drm/drm_kms_helper.ko
+drivers/gpu/drm/drm.ko
+drivers/gpu/drm/drm_panel_orientation_quirks.ko
+drivers/gpu/drm/vc4/vc4.ko
+drivers/gpu/drm/udl/udl.ko

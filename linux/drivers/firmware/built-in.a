@@ -1,0 +1,36 @@
+!<thin>
+//                                              254       `
+dmi_scan.o/
+dmi-id.o/
+raspberrypi.o/
+psci/psci.o/
+efi/efi.o/
+efi/vars.o/
+efi/reboot.o/
+efi/memattr.o/
+efi/tpm.o/
+efi/capsule.o/
+efi/memmap.o/
+efi/esrt.o/
+efi/runtime-wrappers.o/
+efi/libstub/lib-ksyms.o/
+efi/arm-init.o/
+efi/arm-runtime.o/
+efi/earlycon.o/
+/0              0           0     0     644     36144     `
+/12             0           0     0     644     12672     `
+/22             0           0     0     644     21192     `
+/37             0           0     0     644     17544     `
+/50             0           0     0     644     35552     `
+/61             0           0     0     644     46440     `
+/73             0           0     0     644     6320      `
+/87             0           0     0     644     7880      `
+/102            0           0     0     644     6704      `
+/113            0           0     0     644     10152     `
+/128            0           0     0     644     8824      `
+/142            0           0     0     644     16224     `
+/154            0           0     0     644     27392     `
+/178            0           0     0     644     656       `
+/203            0           0     0     644     12056     `
+/219            0           0     0     644     9288      `
+/238            0           0     0     644     11680     `

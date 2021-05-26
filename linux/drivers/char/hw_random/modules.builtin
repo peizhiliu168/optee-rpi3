@@ -1,0 +1,4 @@
+drivers/char/hw_random/rng-core.ko
+drivers/char/hw_random/bcm2835-rng.ko
+drivers/char/hw_random/iproc-rng200.ko
+drivers/char/hw_random/optee-rng.ko

@@ -1,0 +1,1 @@
+cmd_fs/ext4/built-in.o :=  /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld.bfd     -r -o fs/ext4/built-in.o fs/ext4/ext4fs.o fs/ext4/ext4_common.o fs/ext4/dev.o 

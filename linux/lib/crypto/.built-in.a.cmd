@@ -1,0 +1,1 @@
+cmd_lib/crypto/built-in.a := rm -f lib/crypto/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST lib/crypto/built-in.a lib/crypto/aes.o lib/crypto/des.o

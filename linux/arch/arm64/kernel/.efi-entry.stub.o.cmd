@@ -1,0 +1,1 @@
+cmd_arch/arm64/kernel/efi-entry.stub.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-objcopy --prefix-symbols=__efistub_  arch/arm64/kernel/efi-entry.o arch/arm64/kernel/efi-entry.stub.o

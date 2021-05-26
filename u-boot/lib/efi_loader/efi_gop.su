@@ -1,0 +1,4 @@
+efi_gop.c:54:28:gop_set_mode	32	static
+efi_gop.c:39:28:gop_query_mode	48	static
+efi_gop.c:330:21:gop_blt	144	static
+efi_gop.c:391:14:efi_gop_register	96	static

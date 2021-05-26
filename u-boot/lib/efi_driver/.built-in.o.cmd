@@ -1,0 +1,1 @@
+cmd_lib/efi_driver/built-in.o :=  /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld.bfd     -r -o lib/efi_driver/built-in.o lib/efi_driver/efi_uclass.o lib/efi_driver/efi_block_device.o 

@@ -1,0 +1,1 @@
+cmd_drivers/usb/host/built-in.o :=  /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld.bfd     -r -o drivers/usb/host/built-in.o drivers/usb/host/usb-uclass.o drivers/usb/host/dwc2.o 

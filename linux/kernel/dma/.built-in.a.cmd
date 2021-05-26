@@ -1,0 +1,1 @@
+cmd_kernel/dma/built-in.a := rm -f kernel/dma/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST kernel/dma/built-in.a kernel/dma/mapping.o kernel/dma/direct.o kernel/dma/dummy.o kernel/dma/contiguous.o kernel/dma/coherent.o kernel/dma/swiotlb.o kernel/dma/remap.o

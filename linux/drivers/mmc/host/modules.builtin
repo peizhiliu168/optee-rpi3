@@ -1,0 +1,4 @@
+drivers/mmc/host/sdhci.ko
+drivers/mmc/host/bcm2835-mmc.ko
+drivers/mmc/host/bcm2835-sdhost.ko
+drivers/mmc/host/sdhci-pltfm.ko

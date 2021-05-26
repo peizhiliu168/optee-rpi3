@@ -1,0 +1,1 @@
+cmd_drivers/hid/usbhid/built-in.a := rm -f drivers/hid/usbhid/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST drivers/hid/usbhid/built-in.a drivers/hid/usbhid/hid-core.o drivers/hid/usbhid/hiddev.o drivers/hid/usbhid/hid-pidff.o

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-logitech.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf    -r -o drivers/hid/hid-logitech.o drivers/hid/hid-lg.o drivers/hid/hid-lgff.o drivers/hid/hid-lg2ff.o drivers/hid/hid-lg3ff.o drivers/hid/hid-lg4ff.o

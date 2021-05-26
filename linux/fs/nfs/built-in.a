@@ -1,0 +1,110 @@
+!<thin>
+//                                              668       `
+client.o/
+dir.o/
+file.o/
+getroot.o/
+inode.o/
+super.o/
+io.o/
+direct.o/
+pagelist.o/
+read.o/
+symlink.o/
+unlink.o/
+write.o/
+namespace.o/
+mount_clnt.o/
+nfstrace.o/
+export.o/
+sysfs.o/
+nfsroot.o/
+sysctl.o/
+fscache.o/
+fscache-index.o/
+nfs2super.o/
+proc.o/
+nfs2xdr.o/
+nfs3super.o/
+nfs3client.o/
+nfs3proc.o/
+nfs3xdr.o/
+nfs3acl.o/
+nfs4proc.o/
+nfs4xdr.o/
+nfs4state.o/
+nfs4renewd.o/
+nfs4super.o/
+nfs4file.o/
+delegation.o/
+nfs4idmap.o/
+callback.o/
+callback_xdr.o/
+callback_proc.o/
+nfs4namespace.o/
+nfs4getroot.o/
+nfs4client.o/
+nfs4session.o/
+dns_resolve.o/
+nfs4trace.o/
+nfs4sysctl.o/
+pnfs.o/
+pnfs_dev.o/
+pnfs_nfs.o/
+nfs42proc.o/
+filelayout/filelayout.o/
+filelayout/filelayoutdev.o/
+/0              0           0     0     644     58936     `
+/10             0           0     0     644     87744     `
+/17             0           0     0     644     36320     `
+/25             0           0     0     644     3800      `
+/36             0           0     0     644     91792     `
+/45             0           0     0     644     89120     `
+/54             0           0     0     644     5608      `
+/60             0           0     0     644     28584     `
+/70             0           0     0     644     43352     `
+/82             0           0     0     644     24384     `
+/90             0           0     0     644     5512      `
+/101            0           0     0     644     15936     `
+/111            0           0     0     644     81312     `
+/120            0           0     0     644     13368     `
+/133            0           0     0     644     7928      `
+/147            0           0     0     644     178392    `
+/159            0           0     0     644     4880      `
+/169            0           0     0     644     8432      `
+/178            0           0     0     644     11008     `
+/189            0           0     0     644     4536      `
+/199            0           0     0     644     17672     `
+/210           /0           0     0     644     5272      `
+/227            0           0     0     644     5344      `
+/240            0           0     0     644     21160     `
+/248            0           0     0     644     19984     `
+/259            0           0     0     644     5408      `
+/272            0           0     0     644     7592      `
+/286            0           0     0     644     27272     `
+/298            0           0     0     644     34120     `
+/309            0           0     0     644     10608     `
+/320            0           0     0     644     216560    `
+/332            0           0     0     644     118160    `
+/343            0           0     0     644     80584     `
+/356            0           0     0     644     5704      `
+/370            0           0     0     644     14536     `
+/383            0           0     0     644     9376      `
+/395            0           0     0     644     34488     `
+/409            0           0     0     644     27080     `
+/422            0           0     0     644     10864     `
+/434            0           0     0     644     16904     `
+/450           /0           0     0     644     16312     `
+/467           /0           0     0     644     9800      `
+/484            0           0     0     644     3336      `
+/499            0           0     0     644     26984     `
+/513            0           0     0     644     16400     `
+/528            0           0     0     644     2960      `
+/543            0           0     0     644     482496    `
+/556            0           0     0     644     4872      `
+/570            0           0     0     644     107552    `
+/578            0           0     0     644     20280     `
+/590            0           0     0     644     37928     `
+/602            0           0     0     644     23528     `
+/615            0           0     0     644     31128     `
+/640           /0           0     0     644     10584     `

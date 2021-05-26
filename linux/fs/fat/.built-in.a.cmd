@@ -1,0 +1,1 @@
+cmd_fs/fat/built-in.a := rm -f fs/fat/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST fs/fat/built-in.a fs/fat/cache.o fs/fat/dir.o fs/fat/fatent.o fs/fat/file.o fs/fat/inode.o fs/fat/misc.o fs/fat/nfs.o fs/fat/namei_vfat.o fs/fat/namei_msdos.o

@@ -1,0 +1,1 @@
+cmd_virt/built-in.a := rm -f virt/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST virt/built-in.a virt/lib/built-in.a

@@ -1,0 +1,1 @@
+cmd_lib/zstd/zstd_decompress.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf    -r -o lib/zstd/zstd_decompress.o lib/zstd/huf_decompress.o lib/zstd/decompress.o lib/zstd/entropy_common.o lib/zstd/fse_decompress.o lib/zstd/zstd_common.o

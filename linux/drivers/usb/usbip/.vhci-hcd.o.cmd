@@ -1,0 +1,1 @@
+cmd_drivers/usb/usbip/vhci-hcd.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf    -r -o drivers/usb/usbip/vhci-hcd.o drivers/usb/usbip/vhci_sysfs.o drivers/usb/usbip/vhci_tx.o drivers/usb/usbip/vhci_rx.o drivers/usb/usbip/vhci_hcd.o

@@ -1,0 +1,7 @@
+drivers/input/touchscreen/ads7846.ko
+drivers/input/touchscreen/ektf2127.ko
+drivers/input/touchscreen/egalax_ts.ko
+drivers/input/touchscreen/ili210x.ko
+drivers/input/touchscreen/usbtouchscreen.ko
+drivers/input/touchscreen/stmpe-ts.ko
+drivers/input/touchscreen/raspberrypi-ts.ko

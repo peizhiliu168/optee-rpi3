@@ -1,0 +1,1 @@
+cmd_kernel/power/built-in.a := rm -f kernel/power/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST kernel/power/built-in.a kernel/power/qos.o kernel/power/main.o kernel/power/process.o kernel/power/poweroff.o

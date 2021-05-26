@@ -1,0 +1,4 @@
+drivers/gpio/gpio-arizona.ko
+drivers/gpio/gpio-fsm.ko
+drivers/gpio/gpio-mockup.ko
+drivers/gpio/gpio-pca953x.ko

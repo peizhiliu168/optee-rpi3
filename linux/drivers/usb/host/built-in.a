@@ -1,0 +1,45 @@
+!<thin>
+//                                              576       `
+dwc_otg/dwc_otg_driver.o/
+dwc_otg/dwc_otg_attr.o/
+dwc_otg/dwc_otg_cil.o/
+dwc_otg/dwc_otg_cil_intr.o/
+dwc_otg/dwc_otg_pcd_linux.o/
+dwc_otg/dwc_otg_pcd.o/
+dwc_otg/dwc_otg_pcd_intr.o/
+dwc_otg/dwc_otg_hcd.o/
+dwc_otg/dwc_otg_hcd_linux.o/
+dwc_otg/dwc_otg_hcd_intr.o/
+dwc_otg/dwc_otg_hcd_queue.o/
+dwc_otg/dwc_otg_hcd_ddma.o/
+dwc_otg/dwc_otg_adp.o/
+dwc_otg/dwc_otg_fiq_fsm.o/
+dwc_common_port/dwc_cc.o/
+dwc_common_port/dwc_modpow.o/
+dwc_common_port/dwc_dh.o/
+dwc_common_port/dwc_crypto.o/
+dwc_common_port/dwc_notifier.o/
+dwc_common_port/dwc_common_linux.o/
+dwc_common_port/dwc_mem.o/
+
+/0              0           0     0     644     60224     `
+/26             0           0     0     644     40200     `
+/50             0           0     0     644     152096    `
+/73             0           0     0     644     22904     `
+/101            0           0     0     644     23736     `
+/130            0           0     0     644     30056     `
+/153            0           0     0     644     52864     `
+/181            0           0     0     644     58272     `
+/204            0           0     0     644     20688     `
+/233            0           0     0     644     35968     `
+/261            0           0     0     644     14432     `
+/290            0           0     0     644     15704     `
+/318            0           0     0     644     16256     `
+/341            0           0     0     644     12336     `
+/368            0           0     0     644     13120     `
+/394            0           0     0     644     992       `
+/424            0           0     0     644     984       `
+/450            0           0     0     644     992       `
+/480            0           0     0     644     9968      `
+/512            0           0     0     644     139992    `
+/548            0           0     0     644     984       `

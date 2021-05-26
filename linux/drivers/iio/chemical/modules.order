@@ -1,0 +1,4 @@
+drivers/iio/chemical/bme680_core.ko
+drivers/iio/chemical/bme680_i2c.ko
+drivers/iio/chemical/bme680_spi.ko
+drivers/iio/chemical/sps30.ko

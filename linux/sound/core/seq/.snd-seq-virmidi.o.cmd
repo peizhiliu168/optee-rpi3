@@ -1,0 +1,1 @@
+cmd_sound/core/seq/snd-seq-virmidi.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf    -r -o sound/core/seq/snd-seq-virmidi.o sound/core/seq/seq_virmidi.o

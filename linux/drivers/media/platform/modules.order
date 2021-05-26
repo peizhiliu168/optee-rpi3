@@ -1,0 +1,9 @@
+drivers/media/platform/bcm2835/bcm2835-unicam.ko
+drivers/media/platform/vimc/vimc.ko
+drivers/media/platform/vimc/vimc-capture.ko
+drivers/media/platform/vimc/vimc-debayer.ko
+drivers/media/platform/vimc/vimc-scaler.ko
+drivers/media/platform/vimc/vimc-sensor.ko
+drivers/media/platform/vivid/vivid.ko
+drivers/media/platform/vim2m.ko
+drivers/media/platform/vicodec/vicodec.ko

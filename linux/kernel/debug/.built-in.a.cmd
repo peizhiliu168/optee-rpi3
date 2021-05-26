@@ -1,0 +1,1 @@
+cmd_kernel/debug/built-in.a := rm -f kernel/debug/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST kernel/debug/built-in.a kernel/debug/debug_core.o kernel/debug/gdbstub.o kernel/debug/kdb/built-in.a

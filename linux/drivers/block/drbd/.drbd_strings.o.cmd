@@ -1,0 +1,61 @@
+cmd_drivers/block/drbd/drbd_strings.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc -Wp,-MD,drivers/block/drbd/.drbd_strings.o.d  -nostdinc -isystem /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/toolchains/aarch64/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/include -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT=3 -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Wno-format-security -std=gnu89 -mgeneral-regs-only -DCONFIG_AS_LSE=1 -DCONFIG_CC_HAS_K_CONSTRAINT=1 -fno-asynchronous-unwind-tables -Wno-psabi -mabi=lp64 -mbranch-protection=none -DKASAN_SHADOW_SCALE_SHIFT=3 -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 --param=allow-store-data-races=0 -Wframe-larger-than=2048 -fstack-protector-strong -Wno-unused-but-set-variable -Wimplicit-fallthrough -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-merge-all-constants -fmerge-constants -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -fmacro-prefix-map=./= -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1304  -DMODULE  -DKBUILD_BASENAME='"drbd_strings"' -DKBUILD_MODNAME='"drbd"' -c -o drivers/block/drbd/drbd_strings.o drivers/block/drbd/drbd_strings.c
+
+source_drivers/block/drbd/drbd_strings.o := drivers/block/drbd/drbd_strings.c
+
+deps_drivers/block/drbd/drbd_strings.o := \
+  include/linux/kconfig.h \
+    $(wildcard include/config/cpu/big/endian.h) \
+    $(wildcard include/config/booger.h) \
+    $(wildcard include/config/foo.h) \
+  include/linux/compiler_types.h \
+    $(wildcard include/config/have/arch/compiler/h.h) \
+    $(wildcard include/config/enable/must/check.h) \
+    $(wildcard include/config/optimize/inlining.h) \
+    $(wildcard include/config/cc/has/asm/inline.h) \
+  include/linux/compiler_attributes.h \
+  include/linux/compiler-gcc.h \
+    $(wildcard include/config/retpoline.h) \
+    $(wildcard include/config/arch/use/builtin/bswap.h) \
+  include/linux/drbd.h \
+  arch/arm64/include/generated/uapi/asm/types.h \
+  include/uapi/asm-generic/types.h \
+  include/asm-generic/int-ll64.h \
+  include/uapi/asm-generic/int-ll64.h \
+  arch/arm64/include/uapi/asm/bitsperlong.h \
+  include/asm-generic/bitsperlong.h \
+    $(wildcard include/config/64bit.h) \
+  include/uapi/asm-generic/bitsperlong.h \
+  include/linux/types.h \
+    $(wildcard include/config/have/uid16.h) \
+    $(wildcard include/config/uid16.h) \
+    $(wildcard include/config/arch/dma/addr/t/64bit.h) \
+    $(wildcard include/config/phys/addr/t/64bit.h) \
+  include/uapi/linux/types.h \
+  include/uapi/linux/posix_types.h \
+  include/linux/stddef.h \
+  include/uapi/linux/stddef.h \
+  include/linux/compiler_types.h \
+  arch/arm64/include/uapi/asm/posix_types.h \
+  include/uapi/asm-generic/posix_types.h \
+  arch/arm64/include/uapi/asm/byteorder.h \
+  include/linux/byteorder/little_endian.h \
+  include/uapi/linux/byteorder/little_endian.h \
+  include/linux/swab.h \
+  include/uapi/linux/swab.h \
+  include/linux/compiler.h \
+    $(wildcard include/config/trace/branch/profiling.h) \
+    $(wildcard include/config/profile/all/branches.h) \
+    $(wildcard include/config/stack/validation.h) \
+    $(wildcard include/config/kasan.h) \
+  arch/arm64/include/asm/barrier.h \
+  include/linux/kasan-checks.h \
+  include/asm-generic/barrier.h \
+    $(wildcard include/config/smp.h) \
+  arch/arm64/include/generated/uapi/asm/swab.h \
+  include/uapi/asm-generic/swab.h \
+  include/linux/byteorder/generic.h \
+  drivers/block/drbd/drbd_strings.h \
+
+drivers/block/drbd/drbd_strings.o: $(deps_drivers/block/drbd/drbd_strings.o)
+
+$(deps_drivers/block/drbd/drbd_strings.o):

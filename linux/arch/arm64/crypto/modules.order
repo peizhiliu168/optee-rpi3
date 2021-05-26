@@ -1,0 +1,3 @@
+arch/arm64/crypto/aes-neon-blk.ko
+arch/arm64/crypto/aes-arm64.ko
+arch/arm64/crypto/aes-neon-bs.ko

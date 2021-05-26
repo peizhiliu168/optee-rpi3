@@ -1,0 +1,1 @@
+cmd_fs/notify/inotify/built-in.a := rm -f fs/notify/inotify/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST fs/notify/inotify/built-in.a fs/notify/inotify/inotify_fsnotify.o fs/notify/inotify/inotify_user.o

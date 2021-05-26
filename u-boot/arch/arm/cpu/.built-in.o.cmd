@@ -1,0 +1,1 @@
+cmd_arch/arm/cpu/built-in.o :=  rm -f arch/arm/cpu/built-in.o; /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar rcs arch/arm/cpu/built-in.o

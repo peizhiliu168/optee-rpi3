@@ -1,0 +1,1 @@
+cmd_drivers/serial/built-in.o :=  /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld.bfd     -r -o drivers/serial/built-in.o drivers/serial/serial-uclass.o drivers/serial/serial_pl01x.o drivers/serial/serial_bcm283x_mu.o drivers/serial/serial_bcm283x_pl011.o 

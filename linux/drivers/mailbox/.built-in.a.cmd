@@ -1,0 +1,1 @@
+cmd_drivers/mailbox/built-in.a := rm -f drivers/mailbox/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST drivers/mailbox/built-in.a drivers/mailbox/mailbox.o drivers/mailbox/bcm2835-mailbox.o

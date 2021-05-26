@@ -1,0 +1,1 @@
+cmd_drivers/pps/built-in.a := rm -f drivers/pps/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST drivers/pps/built-in.a drivers/pps/clients/built-in.a drivers/pps/generators/built-in.a

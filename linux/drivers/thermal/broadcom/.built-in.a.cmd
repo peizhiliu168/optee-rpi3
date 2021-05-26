@@ -1,0 +1,1 @@
+cmd_drivers/thermal/broadcom/built-in.a := rm -f drivers/thermal/broadcom/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST drivers/thermal/broadcom/built-in.a drivers/thermal/broadcom/bcm2835_thermal.o

@@ -1,0 +1,1 @@
+cmd_sound/core/seq/snd-seq-midi.o := /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ld  -EL  -maarch64elf    -r -o sound/core/seq/snd-seq-midi.o sound/core/seq/seq_midi.o

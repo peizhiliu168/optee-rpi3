@@ -1,0 +1,1 @@
+cmd_drivers/power/built-in.a := rm -f drivers/power/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST drivers/power/built-in.a drivers/power/reset/built-in.a drivers/power/supply/built-in.a

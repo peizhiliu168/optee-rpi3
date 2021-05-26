@@ -1,0 +1,1 @@
+cmd_drivers/mmc/built-in.a := rm -f drivers/mmc/built-in.a; /usr/bin/ccache /home/peizhiliu/Documents/Synced/2021_Spring_Classes/CS446/optee-rpi3b-test/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar cDPrST drivers/mmc/built-in.a drivers/mmc/core/built-in.a drivers/mmc/host/built-in.a

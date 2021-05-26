@@ -1,0 +1,4 @@
+drivers/usb/common/usb-common.ko
+drivers/usb/core/usbcore.ko
+drivers/usb/dwc2/dwc2.ko
+drivers/usb/storage/usb-storage.ko
