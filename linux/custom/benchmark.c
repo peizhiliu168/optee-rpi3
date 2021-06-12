@@ -8,7 +8,7 @@
 #include <linux/string.h>
 #include <linux/uaccess.h>
 
-#define DEBUG 1
+#define DEBUG 0
 #define PATH "/tmp/trace_%lu.csv" // base file name containing id suffix
 
 /*

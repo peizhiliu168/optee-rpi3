@@ -55,7 +55,7 @@ struct pgt {
 
 #define PGT_CACHE_SIZE	ROUNDUP(CFG_NUM_THREADS * 2, PGT_NUM_PGT_PER_PAGE)
 #endif
-#define PGT_CACHE_SIZE	140
+#define PGT_CACHE_SIZE	70
 
 SLIST_HEAD(pgt_cache, pgt);
 

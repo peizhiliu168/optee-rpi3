@@ -134,17 +134,18 @@ static TEE_Result heap_test(uint32_t param_types,
 	//DMSG("section 1");
 	TEE_InitSctrace();
 
-	while (1){
+	while (counter < 1000){
 		//DMSG("section 2");
-		TEE_MallocStats(stats);
-		DMSG("allocated: %lx\n", stats->allocated);
-		uint64_t *p = TEE_Malloc(1024*1024, TEE_MALLOC_FILL_ZERO);
+		// TEE_MallocStats(stats);
+		// DMSG("allocated: %lx\n", stats->allocated);
+		// uint64_t *p = TEE_Malloc(1024*1024, TEE_MALLOC_FILL_ZERO);
 		TEE_AddSctrace(counter);
-		// TEE_GetSctrace(1);
-		// TEE_GetSctrace(1);
-		*p = 'A';
+		// // TEE_GetSctrace(1);
+		// // TEE_GetSctrace(1);
+		// *p = 'A';
 		counter ++;
 	}
+	TEE_GetSctrace(1);
 
 	return TEE_SUCCESS;
 }
